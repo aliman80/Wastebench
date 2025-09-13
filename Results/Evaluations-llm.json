@@ -1,0 +1,1402 @@
+[
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "What is the primary composition of the waste materials in the image?",
+        "ground_truth": "The primary composition of the waste materials in the image is a mix of different types of waste.",
+        "predicted": "<s> The primary composition of the waste materials in the image is a mix of paper, plastic, and possibly other miscellaneous items.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it mentions paper, plastic, and possibly other miscellaneous items, which is in line with the ground truth answer that the primary composition is a mix of different types of waste.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Are the waste materials in the image stacked on top of each other?",
+        "ground_truth": "Yes, the waste materials in the image are piled together in a heap.",
+        "predicted": "<s> Yes, the waste materials in the image are stacked on top of each other.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, and both answers confirm that the waste materials are stacked on top of each other.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Can you identify the types of waste materials present in the image?",
+        "ground_truth": "The image shows rigid plastic, cardboard, metal, and soft plastic waste materials.",
+        "predicted": "<s> I'm sorry, but I cannot provide an answer to this question as there is no image provided. Please provide the image so that I can assist you further.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because it does not provide an answer to the question, instead, it asks for an image to be provided. The correct answer is provided in the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Is the waste material in the image clean or dirty?",
+        "ground_truth": "The condition of the waste materials is unclear.",
+        "predicted": "<s> The waste material in the image appears to be dirty.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that the waste material appears to be dirty, whereas the ground truth states that the condition of the waste materials is unclear, indicating that the prediction is incorrect.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Are the waste materials in the image arranged in a specific order?",
+        "ground_truth": "No, the waste materials in the image appear to be a mix of different types of waste.",
+        "predicted": "<s> Yes, the waste materials in the image are arranged in a specific order. They are neatly stacked and organized, indicating that they have been sorted and categorized for proper disposal or recycling.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the waste materials are arranged in a specific order, which is not supported by the ground truth. The ground truth states that the waste materials are a mix of different types of waste, indicating no specific order.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Is the waste material in the image located on the ground?",
+        "ground_truth": "Yes, the waste materials in the image are located on the ground.",
+        "predicted": "<s> Yes, the waste material in the image is located on the ground.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, stating that the waste material is located on the ground.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Can you identify the shape of the waste materials in the image?",
+        "ground_truth": "The shape of the waste materials in the image varies.",
+        "predicted": "<s> Yes, the waste materials in the image are shaped like a triangle.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the waste materials are shaped like a triangle, which is not supported by the ground truth answer that the shape varies.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Are the waste materials in the image the same size?",
+        "ground_truth": "No, the waste materials in the image appear to be of different sizes.",
+        "predicted": "<s> No, the waste materials in the image are of different sizes.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, stating that the waste materials in the image are of different sizes.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Is the waste material in the image a single piece or a collection?",
+        "ground_truth": "The waste materials in the image are piled together in a heap.",
+        "predicted": "<s> The waste material in the image is a collection of items, not a single piece.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies the waste materials as a collection, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Can you identify the material that is not visible in the image?",
+        "ground_truth": "The image does not provide information about materials that are not visible.",
+        "predicted": "<s> Yes, based on the image provided, it appears that the material that is not visible is the black wire. The image only shows the white wire and the red and black connectors, but the black wire is not visible.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer correctly identifies the black wire as not visible in the image, which is in line with the ground truth answer that the image does not provide information about materials that are not visible.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "What materials are depicted in the image?",
+        "ground_truth": "cardboard, metal, and soft plastic",
+        "predicted": "<s> The image shows a pile of various materials, including what appears to be newspaper, plastic bags, and possibly some other types of paper or fabric.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer mentions newspaper, plastic bags, and possibly some other types of paper or fabric, which are not mentioned in the ground truth answer. The ground truth answer specifically mentions cardboard, metal, and soft plastic, which are not mentioned in the predicted answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Is the cardboard in the image in a good condition?",
+        "ground_truth": "no",
+        "predicted": "<s> Based on the image, it is difficult to determine the overall condition of the cardboard. However, there are some visible signs of wear and tear, such as creases and scuff marks. It is also possible that the cardboard may be damaged or weakened in other areas that are not visible in the image. To accurately assess the condition of the cardboard, a closer inspection or additional information would be needed.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not directly answer the question, instead providing a detailed analysis of the image. The question asks about the condition of the cardboard, and the predicted answer does not provide a clear yes or no answer, making it an incorrect prediction.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "What is the shape of the metal object in the image?",
+        "ground_truth": "a can",
+        "predicted": "<s> The metal object in the image is shaped like a rectangle.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer describes the shape as a rectangle, whereas the ground truth answer is a can, which is a cylindrical shape. The predicted answer lacks the accuracy and specificity required to match the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Is the soft plastic in the image torn?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the soft plastic in the image is torn.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, and the level of detail provided in the predicted answer is sufficient to confirm the correctness.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "What is the overall appearance of the scene in the image?",
+        "ground_truth": "a pile of discarded waste materials",
+        "predicted": "<s> The image shows a close-up of a person's face, with the person appearing to be in a state of distress or discomfort. The person's facial features are clearly visible, and their expression suggests that they are experiencing some form of emotional or physical pain. The background of the image is not clearly visible, but it does not appear to be a significant part of the scene. The focus of the image is on the person's face and the emotions they are conveying.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer describes a person's face in distress, whereas the ground truth answer is a pile of discarded waste materials, which are two completely different scenes.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Are all the pieces of cardboard in the image in the same state?",
+        "ground_truth": "no",
+        "predicted": "<s> No, the pieces of cardboard in the image are in different states. Some pieces are flat, while others are folded or crumpled.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the different states of the cardboard pieces in the image, including flat, folded, and crumpled.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Is the metal object in the image crumpled?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the metal object in the image is crumpled.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, accurately describing the metal object as crumpled.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "What is the texture of the soft plastic in the image?",
+        "ground_truth": "crumpled",
+        "predicted": "<s> The texture of the soft plastic in the image is smooth.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the texture of the soft plastic is smooth, whereas the ground truth answer is crumpled, indicating a mismatch between the predicted and actual texture.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Are there any objects in the image that are not waste materials?",
+        "ground_truth": "no",
+        "predicted": "<s> No, the image only shows waste materials. There are no objects in the image that are not waste materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately matches the ground truth, stating that there are no objects in the image that are not waste materials.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Is the cardboard in the image mostly flat?",
+        "ground_truth": "no",
+        "predicted": "<s> Yes, the cardboard in the image appears to be mostly flat.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the cardboard is mostly flat, which contradicts the ground truth answer \"no\", indicating that the cardboard is not flat.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "What materials are visible in the image?",
+        "ground_truth": "cardboard, rigid plastic, metal, and soft plastic",
+        "predicted": "<s> The image shows a pile of various materials, including what appears to be newspaper, plastic bags, and possibly some other discarded items. The exact composition of the pile is not clear due to the angle and quality of the image.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not match the ground truth. The predicted answer mentions newspaper, plastic bags, and possibly other discarded items, which are not present in the ground truth answer. The ground truth answer includes cardboard, rigid plastic, metal, and soft plastic, which are not mentioned in the predicted answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "Are all the materials in the same condition?",
+        "ground_truth": "no",
+        "predicted": "<s> No, the materials in the image are not in the same condition. The wooden planks are in good condition, while the metal bars are rusted.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies the condition of the materials in the image, mentioning the wooden planks are in good condition and the metal bars are rusted, which matches the ground truth answer \"no\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "What is the overall appearance of the waste materials?",
+        "ground_truth": "messy and disorganized",
+        "predicted": "<s> The waste materials in the image appear to be a mix of different types of trash, including what looks like food waste and other miscellaneous items. The trash is piled up and appears to be in a state of disarray, with some items sticking out of the pile. The overall appearance of the waste materials is unorganized and messy.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately describes the messy and disorganized appearance of the waste materials, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "Are there any transparent materials in the image?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there is a transparent material in the image. The image shows a clear glass that is partially filled with water.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it correctly identifies the presence of a transparent material in the image. However, it provides additional details that are not explicitly mentioned in the question.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "Can you identify the materials that are shiny?",
+        "ground_truth": "metal",
+        "predicted": "<s> Yes, the materials that are shiny in the image are the silverware and the metal objects.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer correctly identifies the shiny materials as metal objects, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "Are there any torn materials in the image?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there is a torn piece of fabric in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately describes the torn material in the image, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "What is the state of the cardboard in the image?",
+        "ground_truth": "crumpled and torn",
+        "predicted": "<s> The cardboard in the image is folded.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer \"The cardboard in the image is folded\" does not match the ground truth answer \"crumpled and torn\", indicating a significant difference in the state of the cardboard.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "Are there any colored plastic materials in the image?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there are colored plastic materials in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, accurately identifying the presence of colored plastic materials in the image.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "Can you identify the materials that are not clear?",
+        "ground_truth": "cardboard, rigid plastic, metal",
+        "predicted": "<s> In the image provided, there are several materials that are not clear. The most prominent non-clear material is the black fabric that is visible in the background. Additionally, there are other objects in the image that are not clear, such as the white and gray objects on the left side of the image. These objects are not clearly distinguishable due to their lack of contrast with the surrounding environment.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer focuses on specific details such as black fabric and white and gray objects, which are not mentioned in the ground truth answer. The ground truth answer only mentions cardboard, rigid plastic, and metal as non-clear materials.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "Are all the materials in the same size?",
+        "ground_truth": "no",
+        "predicted": "<s> No, the materials in the image are not all the same size. There are different sizes of materials visible in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer matches the ground truth, accurately describing the materials in the image as not being all the same size.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "Cardboard, plastic, metal, and paper",
+        "predicted": "<s> The primary material composition of the waste pile appears to be a mix of paper, plastic, and possibly other miscellaneous items. The pile includes newspaper, plastic bags, and possibly other trash.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct, as it mentions paper, plastic, and possibly other miscellaneous items, which are all part of the ground truth answer. The only difference is that the predicted answer does not explicitly mention cardboard and metal, which are also part of the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Are the plastic materials in the form of bottles and bags?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the plastic materials in the image are in the form of bottles and bags.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, providing a detailed explanation of the plastic materials in the image, which is accurate.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Is the metal object crushed?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the metal object in the image appears to be crushed.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer matches the ground truth, providing a detailed explanation for the correct answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Are there any beverage containers in the image?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, there are two beverage containers in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately identifies the presence of two beverage containers in the image, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Is the cardboard torn?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the cardboard box is torn.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, including the additional detail about the cardboard box being torn.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Are there pieces of paper in the surrounding environment?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, there are pieces of paper in the surrounding environment.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, providing a detailed description of the surrounding environment.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Is the waste pile located on the floor?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is located on the floor.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, which is also the most specific and accurate answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Are there multiple types of waste materials present?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, there are multiple types of waste materials present in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, providing additional details about the presence of multiple types of waste materials.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Is the waste pile surrounded by additional waste materials?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is surrounded by additional waste materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, providing a detailed explanation of the waste pile being surrounded by additional waste materials.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Are there any objects in the image that are not waste materials?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, there are objects in the image that are not waste materials. The image shows a group of objects that appear to be tools or equipment, which are not considered waste materials. These objects are likely to be used for a specific purpose or task, and they are not discarded or disposed of.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately identifies the objects in the image as tools or equipment, which are not considered waste materials, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "What is the dominant feature in the center of the image?",
+        "ground_truth": "A pile of waste materials",
+        "predicted": "<s> The dominant feature in the center of the image is a large pile of trash.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, describing the dominant feature in the center of the image as a large pile of trash, which is consistent with the ground truth answer \"A pile of waste materials\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "What is the condition of some of the waste materials in the pile?",
+        "ground_truth": "Crumpled",
+        "predicted": "<s> The waste materials in the pile are in a state of disarray, with some items appearing to be in a state of decay or decomposition. This suggests that the waste has been accumulating for an extended period of time and has not been properly managed or disposed of. The presence of decaying materials can also indicate a lack of proper sanitation and hygiene in the area, which can pose health risks to the local population. It is important to address such issues through proper waste management and sanitation efforts to maintain a clean and healthy environment.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is not a direct match with the ground truth answer \"Crumpled\". The predicted answer provides a detailed description of the waste materials, but does not specifically mention the condition \"Crumpled\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "What is the apparent state of the waste materials in the pile?",
+        "ground_truth": "Unsorted",
+        "predicted": "<s> The waste materials in the pile appear to be compacted and tightly packed together, which suggests that they have been piled on top of each other for an extended period of time or that they have been subjected to some form of mechanical compression. This could make it more difficult to sort through or remove specific items from the pile, and it may also indicate a lack of proper waste management practices in the area.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer provides additional information that is not present in the ground truth answer, which is simply \"unsorted\". The predicted answer also tries to infer the state of the waste materials, which is not what the question is asking.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "Cardboard, rigid plastic, and soft plastic",
+        "predicted": "<s> The primary material composition of the waste pile is plastic.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is incorrect because it only mentions plastic as the primary material composition, whereas the ground truth answer mentions multiple materials including cardboard, rigid plastic, and soft plastic.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "Is the waste pile located on the ground?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is located on the ground.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, providing a detailed explanation for the correct answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "What is the size of the waste pile in the image?",
+        "ground_truth": "Large",
+        "predicted": "<s> The waste pile in the image is described as being very large.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, describing the waste pile as \"very large\", which is the same as the ground truth answer \"Large\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "What is the overall appearance of the waste materials in the pile?",
+        "ground_truth": "Mixed",
+        "predicted": "<s> The waste materials in the pile appear to be a mix of different types of waste, including what looks like paper and possibly other organic materials. The pile is also covered in a layer of dirt, which suggests that it has been recently deposited or is being actively managed. The exact composition of the waste materials cannot be determined from the image alone, but it is clear that there is a variety of different types of waste present.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the mixed appearance of the waste materials in the pile, including the presence of paper and organic materials, and the layer of dirt on top.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "Is the waste pile situated in an urban area?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is situated in an urban area, as evidenced by the presence of buildings and infrastructure in the background of the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately identifies the waste pile as situated in an urban area, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "What is the apparent purpose of the waste pile?",
+        "ground_truth": "Discarded waste",
+        "predicted": "<s> The apparent purpose of the waste pile in the image is to serve as a barrier or boundary between the two areas of the landscape. The waste pile appears to be made of materials that are not suitable for use in the area beyond it, and it may have been placed there to prevent the spread of these materials or to indicate a boundary between different zones or properties. The waste pile may also serve as a visual reminder of the need to manage waste properly and to prevent it from being disposed of inappropriately.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not match the ground truth answer. The predicted answer provides a detailed explanation of the purpose of the waste pile, but the ground truth answer is simply \"Discarded waste\", which is a more concise and accurate description of the waste pile's purpose.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "Is the waste pile situated in a clean environment?",
+        "ground_truth": "No",
+        "predicted": "<s> No, the waste pile is situated in a dirty environment. The image shows a large pile of trash or waste in an area that appears to be unclean and possibly neglected. The presence of the waste pile suggests that there may be inadequate waste management or disposal practices in place, which can contribute to environmental pollution and health risks for those living or working in the area.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the environment as dirty, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "What is the apparent state of the waste materials in the surrounding area?",
+        "ground_truth": "Cluttered",
+        "predicted": "<s> The image shows a pile of waste materials, including what appears to be trash and debris, located near a building. The waste materials are not neatly arranged and seem to be in a state of disarray. This suggests that the waste materials have not been properly managed or disposed of, and may require cleanup or removal.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the apparent state of the waste materials as cluttered and disarrayed, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "What is the primary material used in the construction of the objects in the image?",
+        "ground_truth": "Cardboard, rigid plastic, and soft plastic",
+        "predicted": "<s> The primary material used in the construction of the objects in the image is paper.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is paper, whereas the ground truth answer includes cardboard, rigid plastic, and soft plastic, which are different materials.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "Are the objects in the image part of a larger structure?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, the objects in the image appear to be part of a larger structure. The image shows a close-up view of what looks like a brick wall with mortar joints, and there are also some other materials and objects that are part of the structure. Without more context or a broader view of the structure, it is difficult to determine the exact nature of the larger structure, but it is clear that the objects in the image are not isolated and are part of a larger whole.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is incorrect because it states that the objects in the image are part of a larger structure, whereas the ground truth answer is \"No\". The predicted answer provides a detailed explanation of the image, but it is still incorrect in terms of the main question being asked.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "What is the approximate location of the objects in the image?",
+        "ground_truth": "On the floor",
+        "predicted": "<s> The image shows a person standing in front of a building with a large window. The person is located to the left of the building, and the window is on the right side of the building. The person is also standing in front of a tree, which is located to the left of the building. The image does not provide enough information to determine the exact location of the objects beyond these general descriptions.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not match the ground truth answer. The predicted answer provides a detailed description of the scene, but does not mention the location of the objects as being on the floor, which is the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "Are the objects in the image a part of a recycling facility?",
+        "ground_truth": "It is likely",
+        "predicted": "<s> No, the objects in the image are not a part of a recycling facility. The image shows a group of objects that appear to be related to a construction or industrial setting, but there is no indication that they are involved in recycling.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is incorrect because it states that the objects in the image are not part of a recycling facility, whereas the ground truth answer is \"It is likely\", indicating that the objects in the image are possibly related to a recycling facility.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "What is the primary purpose of the objects in the image?",
+        "ground_truth": "To be recycled",
+        "predicted": "<s> The primary purpose of the objects in the image is to provide support and stability to the structure they are a part of. The objects appear to be brackets or supports, which are used to reinforce the structure and prevent it from bending or collapsing under load. These types of supports are commonly used in construction and engineering to ensure the safety and integrity of a building or other structures.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because it does not match the ground truth answer. The primary purpose of the objects in the image is to provide support and stability, which is not the same as being recycled, which is the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "Are the objects in the image a part of a natural environment?",
+        "ground_truth": "No",
+        "predicted": "<s> No, the objects in the image are not a part of a natural environment. They are man-made objects that have been placed in a natural setting, specifically on a beach.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies the objects as man-made and placed in a natural setting, which matches the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "What is the dominant color of the objects in the image?",
+        "ground_truth": "Varied",
+        "predicted": "<s> The dominant color of the objects in the image is black.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the dominant color of the objects in the image is black, which is incorrect as the ground truth answer is \"Varied\", indicating that there is no single dominant color.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "Are the objects in the image a part of a human-made structure?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the objects in the image are a part of a human-made structure. The image shows a building with a clock tower, which is a common feature in many human-made structures, particularly in public spaces such as town squares or train stations. The clock tower serves both a functional and aesthetic purpose, providing a visual landmark and helping people keep track of time. The presence of the clock tower and the building itself indicate that the objects in the image are man-made and not naturally occurring.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately identifies the objects in the image as part of a human-made structure, providing a detailed explanation of the clock tower and its purpose, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "What is the approximate size of the objects in the image?",
+        "ground_truth": "Variable",
+        "predicted": "<s> I'm sorry, but I cannot provide an answer to your question as there is no image attached to your message. Please provide the image so that I can assist you better.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because the question asks about the approximate size of objects in an image, but the predicted answer is a message saying there is no image attached to the message.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "Are the objects in the image a part of a typical household environment?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, the objects in the image are a part of a typical household environment. The image shows a kitchen with various appliances and items commonly found in a kitchen, such as a refrigerator, stove, sink, and cabinets. These objects are essential for food preparation and storage in a home.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that the objects in the image are a part of a typical household environment, but the ground truth is that they are not. The image shows a kitchen with various appliances and items commonly found in a kitchen, but this does not necessarily mean it is a typical household environment.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "cardboard, rigid plastic, and soft plastic",
+        "predicted": "<s> The primary material composition of the waste pile appears to be a mix of paper, plastic, and possibly other miscellaneous items.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is close to the ground truth, mentioning paper, plastic, and possibly other miscellaneous items, which is similar to the ground truth answer mentioning cardboard, rigid plastic, and soft plastic.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "Are the waste materials in the pile stacked on top of each other?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the waste materials in the pile are stacked on top of each other.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, providing a detailed explanation of the stacking of waste materials in the pile.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "What is the shape of some of the cardboard pieces?",
+        "ground_truth": "crumpled",
+        "predicted": "<s> The cardboard pieces in the image are shaped like a rectangle and a triangle.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer mentions specific shapes like rectangle and triangle, which is not mentioned in the ground truth answer. The ground truth answer is \"crumpled\" which is a different shape altogether.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "Are the rigid plastic pieces curled?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the rigid plastic pieces in the image are curled.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, providing a detailed and accurate description of the rigid plastic pieces being curled.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "What is the state of the soft plastic in the pile?",
+        "ground_truth": "tangled",
+        "predicted": "<s> The soft plastic in the pile is in a state of disarray, with some of it appearing to be crumpled or crushed.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the state of the soft plastic in the pile as disarray, crumpled, and crushed, which matches the ground truth answer \"tangled\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "Are the waste materials in the pile scattered in different directions?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the waste materials in the pile are scattered in different directions.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, including the additional details provided.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "What is the overall appearance of the waste pile?",
+        "ground_truth": "unorganized",
+        "predicted": "<s> The waste pile in the image appears to be large and disorganized, with various types of waste materials piled on top of each other. The pile is also located near a body of water, which could potentially contaminate the water if the waste materials were to leak or spill into the water. The overall appearance of the waste pile suggests that it has not been properly managed or contained, and could pose a risk to the environment and public health.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the overall appearance of the waste pile as unorganized, and provides additional details about the location and potential environmental risks.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "Are some of the cardboard pieces flat?",
+        "ground_truth": "no",
+        "predicted": "<s> Yes, some of the cardboard pieces in the image are flat.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that some of the cardboard pieces are flat, which contradicts the ground truth answer \"no\", indicating that none of the cardboard pieces are flat.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "What is the color of the soft plastic pieces?",
+        "ground_truth": "various",
+        "predicted": "<s> The color of the soft plastic pieces in the image is white.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 1, 'reason': 'The predicted answer is incorrect because it specifies a specific color \"white\" which is not mentioned in the ground truth answer \"various\". The ground truth answer suggests that the colors can be different, but the predicted answer is specific to one color.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "Is the waste pile located on the ground?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the waste pile is located on the ground.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, stating that the waste pile is indeed located on the ground.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "Cardboard, soft plastic, and paper",
+        "predicted": "<s> The primary material composition of the waste pile appears to be a mix of paper, plastic, and possibly other miscellaneous items. The pile consists of various pieces of paper, some of which are crumpled, and there are also some plastic bags visible. The exact composition of the pile is difficult to determine without a closer examination of each item, but it seems to be a typical mix of waste materials that one might find in a public or commercial setting.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it mentions paper, plastic, and other miscellaneous items, which aligns with the ground truth. The only difference is that the predicted answer provides more specific details about the composition of the waste pile, whereas the ground truth is more general.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "Is the waste pile located on the floor?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is located on the floor.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, which is \"Yes\", and the predicted answer also includes the additional detail \"the waste pile is located on the floor\", which is not explicitly asked in the question, but is still correct.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "Are the waste materials in the pile crumpled or folded?",
+        "ground_truth": "Both",
+        "predicted": "<s> The waste materials in the pile are crumpled.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the waste materials are crumpled, whereas the ground truth answer is \"both\", indicating that the materials are both crumpled and folded.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "Is the waste pile taking up a significant portion of the floor?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is taking up a significant portion of the floor in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, providing a detailed explanation of the waste pile taking up a significant portion of the floor.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "What is the condition of the waste materials in the pile?",
+        "ground_truth": "Mixed",
+        "predicted": "<s> The waste materials in the pile appear to be in a state of disarray, with some materials spilling out of the pile and onto the ground. This suggests that the pile may not be well-organized or contained, and that the waste materials may be at risk of spreading or contaminating the surrounding area.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is not a direct answer to the question, which is asking about the condition of the waste materials in the pile. The predicted answer provides additional information about the state of the pile, but does not directly answer the question.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "Are the waste materials in the pile properly sorted?",
+        "ground_truth": "No",
+        "predicted": "<s> Based on the image, it is difficult to determine if the waste materials in the pile are properly sorted. Proper sorting of waste materials is important for efficient recycling and disposal, as well as for reducing the environmental impact of waste management. In order to properly assess the sorting of the waste materials in the pile, a closer examination of the contents of the pile would be necessary.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not directly answer the question, instead providing a detailed explanation of the importance of proper waste sorting. The ground truth answer is \"No\", which is not addressed in the predicted answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "Is the waste pile likely to be managed properly?",
+        "ground_truth": "No",
+        "predicted": "<s> Based on the image, it is difficult to determine if the waste pile is being managed properly. The image only shows a single moment in time and does not provide enough information to assess the overall management of the waste pile. Additionally, the image does not provide any context about the location, the type of waste, or the regulations and practices in place for waste management in that area. Therefore, it is not possible to confidently answer the question based on the image alone.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately acknowledges the limitations of the image and the lack of sufficient information to confidently answer the question, showing a good understanding of the context.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "What is the likely reason for the waste pile not being managed properly?",
+        "ground_truth": "The waste pile contains a variety of materials that should be recycled or disposed of properly",
+        "predicted": "<s> It is difficult to determine the exact reason for the waste pile not being managed properly from the image alone. However, some possible reasons could be:\n\n1. Negligence or lack of awareness: The waste pile could be a result of negligence or lack of awareness about proper waste management practices.\n2. Insufficient resources: The area responsible for waste management may not have the necessary resources, such as personnel or funding, to properly manage the waste pile.\n3. Emergency situation: The waste pile could be a result of an emergency situation, such as a natural disaster or an accident, that has caused the waste to accumulate quickly and cannot be managed properly.\n4. Political or economic factors: Political or economic factors, such as budget cuts or changes in government policies, could be contributing to the waste pile not being managed properly.\n\nIt is important to note that these are just possible reasons and the actual reason for the waste pile not being managed properly cannot be determined without further information.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is a list of possible reasons for the waste pile not being managed properly, which is a correct approach as the question does not provide enough information to determine a single reason. The predicted answer acknowledges the uncertainty and provides multiple possible explanations, which is a reasonable and accurate response.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "Is the waste pile large?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile in the image appears to be quite large.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is correct as it accurately describes the size of the waste pile in the image, mentioning it appears to be quite large.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "What is the likely fate of the waste materials in the pile?",
+        "ground_truth": "They should be recycled or disposed of properly",
+        "predicted": "<s> Based on the image, it appears that the waste materials in the pile are likely to be disposed of in an uncontrolled manner. The pile is not contained within any sort of structure or enclosure, and there is no indication that any sort of waste management or disposal process is in place. This could lead to potential environmental and health risks if the waste materials were to leak or spread into the surrounding area. It would be important for the responsible party to take appropriate measures to properly dispose of the waste materials in a controlled and safe manner.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies the potential environmental and health risks associated with the uncontrolled disposal of waste materials, and suggests proper disposal methods, which aligns with the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "What is the primary composition of the waste materials in the image?",
+        "ground_truth": "Cardboard, soft plastic, and paper",
+        "predicted": "<s> The primary composition of the waste materials in the image is a mix of paper, plastic, and possibly other miscellaneous items.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct, as it mentions paper, plastic, and possibly other miscellaneous items, which are all part of the ground truth answer. The only difference is that the predicted answer does not explicitly mention cardboard and soft plastic, which are also part of the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "Is the waste pile located on the floor?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is located on the floor.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer accurately, including the additional detail provided.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "What is the condition of the waste materials in the pile?",
+        "ground_truth": "Mixed, with some appearing crumpled and others folded or twisted",
+        "predicted": "<s> The waste materials in the pile appear to be dry and compacted, indicating that they have been there for some time and have not been regularly maintained or removed. This could potentially pose health and safety risks, as well as environmental concerns, if the pile were to be disturbed or if the waste were to be released into the environment. It is important to properly manage and dispose of waste materials in a timely and responsible manner to prevent such issues.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not match the ground truth answer. The ground truth answer mentions the waste materials being \"Mixed, with some appearing crumpled and others folded or twisted\", whereas the predicted answer describes the waste materials as \"dry and compacted\". The predicted answer also provides additional information about potential health and safety risks, which is not mentioned in the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "Is the waste pile taking up a significant portion of the floor?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is taking up a significant portion of the floor, as it is described as a \"large pile of garbage\" and \"a big pile of trash.\" This suggests that the waste is substantial and occupies a considerable amount of space on the floor.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, providing a detailed explanation that supports the correctness of the statement.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "What is the apparent state of the waste materials in the pile?",
+        "ground_truth": "Crumpled, folded, and twisted",
+        "predicted": "<s> The waste materials in the pile appear to be in a state of disarray, with no clear organization or pattern. This suggests that the pile may have been accumulated over a period of time and has not been regularly maintained or sorted. The presence of various types of waste materials, such as plastic and metal, indicates that the pile may contain a mix of different materials that have been discarded together. This can make it difficult to identify specific items or to determine the best way to dispose of or recycle the materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the apparent state of the waste materials in the pile, including the lack of organization, presence of various types of waste, and the potential for difficulty in identifying specific items or determining the best way to dispose of or recycle the materials. The only minor discrepancy is the lack of specific details about the materials being crumpled, folded, and twisted, which are mentioned in the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "Is the waste pile situated in a specific location?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, the waste pile is situated in a specific location. It is located in the middle of the forest.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the waste pile is situated in a specific location, but the ground truth answer is \"No\", indicating that the waste pile is not situated in a specific location.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "What is the dominant material in the waste pile?",
+        "ground_truth": "Cardboard",
+        "predicted": "<s> The dominant material in the waste pile is plastic.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is plastic, whereas the ground truth is cardboard, indicating a mismatch in the dominant material in the waste pile.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "Are the waste materials in the pile neatly arranged?",
+        "ground_truth": "No",
+        "predicted": "<s> No, the waste materials in the pile are not neatly arranged. They appear to be randomly stacked on top of each other.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is correct as it accurately describes the waste materials in the pile as not being neatly arranged, and provides additional details about them being randomly stacked.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "Is the waste pile situated in a cluttered environment?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is situated in a cluttered environment. The image shows a large pile of trash in the middle of a cluttered room, with various objects and debris scattered around. This suggests that the area is disorganized and not well-maintained. The presence of the waste pile adds to the clutter and makes the space even more disordered.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately describes the scene, mentioning the presence of a waste pile in a cluttered environment, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "What is the overall appearance of the waste pile?",
+        "ground_truth": "Messy",
+        "predicted": "<s> The waste pile in the image appears to be large and disorganized, with various types of trash and debris scattered haphazardly. It gives the impression of being unmanaged and potentially dangerous, as it could pose a risk to both the environment and any individuals who come into contact with it. The pile is also located near a body of water, which could further exacerbate the environmental impact and pose additional risks.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the messy appearance of the waste pile, including its disorganized state, presence of various trash and debris, and potential environmental and health risks.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "What is the dominant material composition of the waste pile?",
+        "ground_truth": "Cardboard, soft plastic, and paper",
+        "predicted": "<s> The dominant material composition of the waste pile in the image appears to be a mix of paper and plastic items. There are various pieces of paper scattered throughout the pile, along with some plastic wrappers and possibly other miscellaneous items. The exact proportions of these materials cannot be determined from the image alone, but it is clear that paper and plastic are the most prominent components.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies paper and plastic as the dominant material composition, which matches the ground truth. The only difference is that the predicted answer does not mention cardboard, which is also present in the ground truth. However, the predicted answer still correctly identifies the main components of the waste pile.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "Is the waste pile located on the floor?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is located on the floor.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, and the additional details provided in the predicted answer do not affect the correctness of the answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "What is the approximate size range of the cardboard pieces?",
+        "ground_truth": "Various sizes",
+        "predicted": "<s> The cardboard pieces in the image appear to be relatively small, likely measuring around 1-2 inches in length. However, without a more precise measurement or a reference for scale, it's difficult to provide an exact size range.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer provides a reasonable size range and acknowledges the limitations of the measurement, which is consistent with the ground truth answer \"Various sizes\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "Is the paper in the pile crumpled?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the paper in the pile is crumpled.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, including the additional detail about the paper being crumpled.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "What is the location of the soft plastic waste in the pile?",
+        "ground_truth": "Towards the right side",
+        "predicted": "<s> The soft plastic waste is located in the middle of the pile.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that the soft plastic waste is located in the middle of the pile, whereas the ground truth answer states that it is located towards the right side, which is a different location.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "Is the waste pile sorted?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, the waste pile in the image appears to be sorted. The different types of waste are separated and organized, making it easier to manage and dispose of them properly.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that the waste pile is sorted, but the ground truth answer is that it is not. The predicted answer provides a detailed explanation of the waste pile, but it is incorrect in its conclusion.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "What is the condition of some of the cardboard pieces?",
+        "ground_truth": "Crumpled or torn",
+        "predicted": "<s> The cardboard pieces in the image appear to be in a somewhat worn and damaged condition. Some of the pieces have visible creases, tears, and discoloration, indicating that they have been handled or stored in a way that has caused damage.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it accurately describes the condition of the cardboard pieces as worn and damaged, including creases, tears, and discoloration. The only minor difference is that the predicted answer provides more specific details than the ground truth, which only mentions \"crumpled or torn\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "Is the waste pile located on a surface other than the floor?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, the waste pile is located on a surface other than the floor. It is on top of a table.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies the surface as a table, which is a surface other than the floor, matching the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "What is the approximate shape of some of the cardboard pieces?",
+        "ground_truth": "Various shapes",
+        "predicted": "<s> The image shows a collection of cardboard pieces with various shapes and sizes. Some of the cardboard pieces appear to be rectangular, while others may be more irregular or have a more complex shape. It is difficult to provide an exact description of the shapes without more specific details, but it is clear that there is a diverse assortment of cardboard pieces present in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the various shapes of the cardboard pieces, including rectangular and irregular shapes, and acknowledges the difficulty in providing an exact description without more specific details.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "Is the waste pile entirely composed of recyclable materials?",
+        "ground_truth": "No",
+        "predicted": "<s> Based on the image provided, it is not possible to definitively determine if the waste pile is entirely composed of recyclable materials. The image shows a pile of various materials, but it is not clear what the specific contents of the pile are or whether any of the materials are recyclable. To determine if the waste pile is entirely composed of recyclable materials, a more detailed examination of the contents of the pile would be needed.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer acknowledges the limitations of the image and the need for a more detailed examination to determine the composition of the waste pile, which aligns with the ground truth answer \"No\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "What is the dominant material composition of the waste materials in the image?",
+        "ground_truth": "Cardboard, soft plastic, and paper",
+        "predicted": "<s> The image shows a pile of waste materials, and it appears to be a mix of various items. However, without more specific details, it's difficult to determine the dominant material composition of the waste materials. They could be a mix of paper, plastic, fabric, and other materials. To provide a more accurate answer, a closer examination of the individual items and their proportions would be necessary.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not match the ground truth, as it does not specify the dominant material composition of the waste materials, which is Cardboard, soft plastic, and paper.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "Is the cardboard in the image in various sizes and shapes?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the cardboard in the image is in various sizes and shapes.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, providing a detailed and accurate description of the cardboard in the image.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "What is the condition of the waste materials in the image?",
+        "ground_truth": "Messy and disorganized",
+        "predicted": "<s> The waste materials in the image appear to be in a state of disarray and are not properly contained. There is trash scattered around, and it looks like it has not been properly managed or disposed of. This can be a potential safety hazard and is also unsightly. Proper waste management and disposal practices should be followed to keep the environment clean and safe.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately describes the condition of the waste materials in the image as messy and disorganized, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "Is there a piece of white paper with a blue and red design on it in the image?",
+        "ground_truth": "Yes",
+        "predicted": "<s> No, there is no piece of white paper with a blue and red design on it in the image. The image shows a whiteboard with some writing on it, but there is no paper with a design on it.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is incorrect because it states that there is no piece of white paper with a blue and red design on it in the image, whereas the ground truth answer is \"Yes\", indicating that such a piece of paper does exist in the image.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "What is the color of the plastic bottle in the image?",
+        "ground_truth": "Clear",
+        "predicted": "<s> The color of the plastic bottle in the image is white.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is white, but the ground truth is clear, indicating a mismatch.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "Is the paper in the image in different colors and forms?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the paper in the image is in different colors and forms. There are two pieces of paper, one is white and the other is black. They are also in different shapes, with one being rectangular and the other being circular.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it correctly identifies the paper in the image as being in different colors and forms. However, it provides additional details that are not present in the ground truth answer, such as the specific colors and shapes of the papers.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "What is the overall appearance of the waste materials in the image?",
+        "ground_truth": "Cluttered",
+        "predicted": "<s> The waste materials in the image appear to be a mix of different types of waste, including what looks like food waste and other organic materials. The waste is piled up and appears to be in a state of disarray. There is also a strong smell coming from the waste, indicating that it has not been properly managed and is likely causing an unsanitary condition.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer provides a detailed description of the waste materials, which is not what the question is asking. The question asks for the overall appearance of the waste materials, and the predicted answer does not directly answer this question.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "Is there a piece of blue plastic in the image?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, there is a piece of blue plastic in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, accurately identifying the presence of blue plastic in the image.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "What is the condition of some of the cardboard in the image?",
+        "ground_truth": "Crumpled and torn",
+        "predicted": "<s> The cardboard in the image appears to be in a somewhat worn and damaged condition.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct, as it describes the cardboard as being in a somewhat worn and damaged condition, which is similar to the ground truth answer of being crumpled and torn.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "Is there a piece of white paper with a blue design on it in the image?",
+        "ground_truth": "Yes",
+        "predicted": "<s> No, there is no piece of white paper with a blue design on it in the image. The image shows a blue and white striped pattern on a surface, but there is no paper present.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is incorrect because it states that there is no piece of white paper with a blue design on it in the image, whereas the ground truth answer is \"Yes\", indicating that such a piece of paper does exist in the image.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "Cardboard, soft plastic, and paper",
+        "predicted": "<s> The primary material composition of the waste pile appears to be a mix of various types of paper and possibly some other miscellaneous items. The pile includes what looks like newspaper, possibly some magazines or brochures, and possibly some other types of paper or cardboard. The exact composition of the pile is not clear from the image alone, but it is evident that paper is the most dominant material present.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies paper as the dominant material in the waste pile, and also mentions the presence of cardboard, which is mentioned in the ground truth answer. The only difference is that the predicted answer does not explicitly mention cardboard, but it is implied by the mention of paper and cardboard-like materials.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "Are the waste materials in the pile neatly arranged?",
+        "ground_truth": "No",
+        "predicted": "<s> No, the waste materials in the pile are not neatly arranged. They appear to be randomly placed, which may indicate a lack of organization or proper disposal practices.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is correct as it not only answers the question but also provides additional information about the waste materials being randomly placed, indicating a lack of organization or proper disposal practices.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "What is the shape of some of the cardboard pieces in the pile?",
+        "ground_truth": "Crumbled",
+        "predicted": "<s> The image shows a pile of cardboard pieces, and some of the pieces are shaped like a triangle.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is incorrect because it mentions the shape of the cardboard pieces as triangular, whereas the ground truth answer is \"Crumbled\", which is a different shape.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "Is the paper in the pile organized?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, the paper in the pile appears to be organized. The papers are stacked neatly on top of each other, with the edges aligned, suggesting that someone has taken the time to arrange them in a tidy manner. This organization could make it easier for someone to find a specific paper or document among the pile.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that the paper in the pile appears to be organized, which contradicts the ground truth answer \"No\". The prediction is incorrect as the paper in the pile is not organized according to the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "What is the texture of the soft plastic visible in the image?",
+        "ground_truth": "Crumbled and tangled",
+        "predicted": "<s> The soft plastic visible in the image has a smooth texture.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that the soft plastic has a smooth texture, whereas the ground truth answer describes it as crumbled and tangled, indicating a significant difference in texture.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "Are there different sizes and shapes of cardboard in the pile?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the image shows a pile of cardboard with different sizes and shapes.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately describes the pile of cardboard in the image, mentioning different sizes and shapes, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "Is the waste pile located on the floor?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is located on the floor.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, and the additional details provided in the predicted answer do not affect the correctness of the answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "What is the overall appearance of the waste pile?",
+        "ground_truth": "Disorganized",
+        "predicted": "<s> The waste pile in the image appears to be quite large and is composed of various types of waste materials. It is piled up in a manner that suggests it has been accumulating over a period of time, and it is not well-organized or sorted. The waste materials include what looks like construction debris and other types of waste, and it is located in an outdoor area. The presence of the waste pile indicates a lack of proper waste management in the area, which can have negative environmental and health impacts.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the disorganized appearance of the waste pile, matching the ground truth answer \"Disorganized\". The predicted answer provides additional details about the size, composition, and location of the waste pile, which are not explicitly asked in the question, but are still relevant to the description of the waste pile. However, the predicted answer does not directly answer the question about the overall appearance of the waste pile, which is the primary focus of the question.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "Are there any recognizable patterns in the arrangement of the waste materials?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, there is a recognizable pattern in the arrangement of the waste materials. The waste materials are arranged in a circular pattern, with each layer of materials being smaller than the layer below it. This pattern creates a stepped appearance, with each step being smaller than the one before it. This type of arrangement is often seen in nature, such as in the layers of an onion or the segments of an orange. It is also commonly used in art and design to create visual interest and balance.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer provides a detailed description of the pattern in the arrangement of waste materials, which is not supported by the ground truth answer, which is \"No\". The predicted answer is incorrect as it provides a specific example of a pattern, which is not present in the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "What is the condition of some of the paper in the pile?",
+        "ground_truth": "Crumbled",
+        "predicted": "<s> The paper in the pile appears to be crumpled and possibly damaged.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it accurately describes the condition of the paper as crumpled, which is similar to the ground truth answer \"crumbled\". The only difference is the slight variation in wording, but the overall meaning is the same.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "cardboard, soft plastic, and paper",
+        "predicted": "<s> The primary material composition of the waste pile appears to be a mix of paper, plastic, and possibly other miscellaneous items.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it mentions paper, plastic, and possibly other miscellaneous items, which matches the ground truth of cardboard, soft plastic, and paper. The only difference is the mention of cardboard, which is not explicitly mentioned in the predicted answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "Are the waste materials in the image arranged in an organized manner?",
+        "ground_truth": "no",
+        "predicted": "<s> No, the waste materials in the image are not arranged in an organized manner. They are piled up haphazardly, which suggests a lack of proper waste management or disposal system in place. This can lead to environmental pollution and health hazards if not addressed.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the waste materials in the image as not being arranged in an organized manner, and also provides additional context about the potential environmental and health hazards.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "What is the state of the cardboard in the waste pile?",
+        "ground_truth": "crumpled and torn",
+        "predicted": "<s> The cardboard in the waste pile is in a state of disarray, with some pieces of cardboard sticking out of the pile.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not match the ground truth. The predicted answer describes the cardboard as being in a state of disarray, but the ground truth is more specific, stating it is \"crumpled and torn\". The predicted answer does not provide the same level of detail as the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "Is the soft plastic in the image twisted and tangled?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the soft plastic in the image is twisted and tangled.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, providing a detailed description of the twisted and tangled soft plastic in the image.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "What is the condition of the paper in the waste pile?",
+        "ground_truth": "crumpled and torn",
+        "predicted": "<s> The paper in the waste pile is crumpled and appears to be in poor condition.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the condition of the paper in the waste pile as crumpled and appears to be in poor condition, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "Are there any objects in the image that are not waste materials?",
+        "ground_truth": "no",
+        "predicted": "<s> Yes, there are objects in the image that are not waste materials. The image shows a collection of various materials, including what appears to be a piece of paper, a plastic bag, and some metal cans. These objects are not considered waste materials, as they can be recycled or repurposed. Waste materials typically refer to items that are no longer useful or cannot be recycled, such as trash or garbage.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately identifies the objects in the image that are not waste materials, providing specific examples and explaining the concept of waste materials.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "Is the waste pile located on the floor?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the waste pile is located on the floor.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, accurately describing the location of the waste pile as being on the floor.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "What is the overall appearance of the waste pile?",
+        "ground_truth": "messy and unorganized",
+        "predicted": "<s> The waste pile in the image appears to be large and disorganized, with various types of waste materials piled on top of each other. The waste materials include what looks like construction debris and other types of trash. The pile is located in an outdoor area, and there is no visible signage or markings that provide information about the contents of the pile or the reason for its existence. The overall appearance of the waste pile is unsightly and suggests a lack of proper waste management in the area.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately describes the overall appearance of the waste pile as messy and unorganized, and provides additional details about the types of waste materials and the location of the pile.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "Are the waste materials in the image the same size and shape?",
+        "ground_truth": "no",
+        "predicted": "<s> No, the waste materials in the image are of different sizes and shapes.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the waste materials in the image as being of different sizes and shapes, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "Is the waste pile in the image a single, cohesive unit?",
+        "ground_truth": "no",
+        "predicted": "<s> Yes, the waste pile in the image appears to be a single, cohesive unit. It is a large pile of trash that has been collected and organized in some way, rather than being a scattered collection of individual items.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that the waste pile is a single, cohesive unit, whereas the ground truth is that it is not. The prediction does not accurately reflect the reality of the image.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "What is the dominant color of the surface on which the waste materials are placed?",
+        "ground_truth": "black",
+        "predicted": "<s> The dominant color of the surface on which the waste materials are placed is black.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, which is also the dominant color of the surface on which the waste materials are placed.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "Are there any crumpled objects in the pile of waste materials?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there is a crumpled object in the pile of waste materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is correct as it mentions the presence of a crumpled object in the pile of waste materials, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "What is the shape and size of the largest object in the pile of waste materials?",
+        "ground_truth": "various sizes and shapes",
+        "predicted": "<s> The largest object in the pile of waste materials is a large piece of trash that is shaped like a cube and is approximately 2 feet by 2 feet by 2 feet in size.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer provides specific details about the shape and size of the largest object, which is not mentioned in the ground truth answer. The ground truth answer only mentions various sizes and shapes, but does not provide specific details.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "Is there any writing on a piece of paper in the image?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there is writing on a piece of paper in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, accurately describing the presence of writing on a piece of paper in the image.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "What is the color of the plastic bag in the pile of waste materials?",
+        "ground_truth": "blue",
+        "predicted": "<s> The color of the plastic bag in the pile of waste materials is white.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the color of the plastic bag is white, whereas the ground truth is blue, indicating a mismatch.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "Are there any transparent objects in the pile of waste materials?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there is a transparent object in the pile of waste materials. It is a plastic bag that is visible among the other waste materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is correct in stating that there is a transparent object in the pile of waste materials, which is a plastic bag. The only difference is that the predicted answer provides more specific details about the object, whereas the ground truth answer is more general.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "What is the material of the object with black writing on it?",
+        "ground_truth": "paper",
+        "predicted": "<s> The object with black writing on it is made of metal.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the object with black writing on it is made of metal, which is incorrect as the ground truth answer is \"paper\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "Is the pile of waste materials scattered in different directions?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the pile of waste materials is scattered in different directions.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, including the additional details provided in the predicted answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "What is the type of plastic bag in the pile of waste materials?",
+        "ground_truth": "soft plastic",
+        "predicted": "<s> The image shows a pile of waste materials, but it is not possible to definitively determine the type of plastic bag present in the pile based on the image alone. The plastic bag could be a grocery bag, a trash bag, or a bag used for storing other types of waste. To accurately identify the type of plastic bag, additional information or a clearer image would be needed.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not match the ground truth as the image does not provide sufficient information to determine the type of plastic bag, and the predicted answer does not provide a specific type of plastic bag.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "Are there any cardboard objects in the pile of waste materials?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there is a cardboard box in the pile of waste materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, providing specific details about the type of cardboard object and its presence in the pile of waste materials.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "Cardboard, soft plastic, and paper",
+        "predicted": "<s> The primary material composition of the waste pile appears to be a mix of paper, cardboard, and possibly some plastic or other types of packaging materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies the primary material composition of the waste pile as a mix of paper, cardboard, and possibly some plastic or other types of packaging materials, which matches the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "Is the waste pile located on the floor?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is located on the floor.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, providing a detailed explanation of the location of the waste pile.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "What is the condition of some of the cardboard in the pile?",
+        "ground_truth": "Crumpled",
+        "predicted": "<s> The cardboard in the pile is soaked.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer \"The cardboard in the pile is soaked.\" does not match the ground truth answer \"Crumpled\", indicating that the prediction is incorrect.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "What is the likely material of the visible piece of plastic?",
+        "ground_truth": "Soft plastic",
+        "predicted": "<s> The visible piece of plastic in the image appears to be made of a clear, flexible material, possibly polyethylene (PE) or polypropylene (PP). These materials are commonly used in packaging and labeling applications due to their transparency, durability, and ability to withstand various conditions. However, without a closer examination or additional context, it is difficult to definitively determine the exact material of the plastic.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer provides a detailed description of the material, including its transparency, flexibility, and potential materials (PE or PP), which matches the ground truth answer \"Soft plastic\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "Are the papers in the pile the same color?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, the papers in the pile are the same color.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because the papers in the pile are not the same color according to the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "Is the waste pile scattered in different directions?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is scattered in different directions.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, including the additional details provided.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "What is the state of the paper in the pile?",
+        "ground_truth": "In various states of disarray",
+        "predicted": "<s> The paper in the pile is crumpled.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is not entirely accurate as the ground truth answer mentions \"in various states of disarray\" which implies multiple states, whereas the predicted answer only mentions \"crumpled\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "Is the waste pile a sign of proper waste management?",
+        "ground_truth": "No",
+        "predicted": "<s> No, the waste pile is not a sign of proper waste management. Proper waste management involves the collection, transportation, processing, and disposal of waste in an environmentally responsible and safe manner. A waste pile indicates that the waste has not been managed properly, and it can pose environmental and health risks if not addressed.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately explains that a waste pile is not a sign of proper waste management and provides additional information on what proper waste management entails.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "What is the size and shape of the cardboard in the pile?",
+        "ground_truth": "Various",
+        "predicted": "<s> The cardboard in the pile is large and rectangular in shape.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is specific about the size and shape of the cardboard, which is not mentioned in the ground truth answer. The ground truth answer is \"Various\", indicating that the size and shape of the cardboard can be different.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "Is the waste pile located in a specific area?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, the waste pile is located in a specific area. It is situated in the middle of a field.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that the waste pile is located in a specific area, whereas the ground truth answer is \"No\", indicating that the waste pile is not located in a specific area.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "What is the condition of the plastic bag in the pile?",
+        "ground_truth": "Unknown",
+        "predicted": "<s> The plastic bag in the pile is torn.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer states that the plastic bag is torn, but the ground truth is unknown, indicating that the condition of the plastic bag is not specified.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "cardboard, soft plastic, and paper",
+        "predicted": "<s> The primary material composition of the waste pile appears to be a mix of paper, plastic, and possibly other miscellaneous items.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it mentions paper, plastic, and possibly other miscellaneous items, which aligns with the ground truth answer of cardboard, soft plastic, and paper.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "Are there any plastic materials in the waste pile?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there are plastic materials in the waste pile.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, including the specific details provided.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "What is the approximate size range of the cardboard pieces?",
+        "ground_truth": "various sizes",
+        "predicted": "<s> The cardboard pieces in the image appear to be relatively small, with a size range of around 1-2 inches in length. However, without a more precise measurement, it is difficult to provide an exact size range.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer matches the ground truth in terms of providing a size range, and the range is also relatively close to the expected range of various sizes.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "Is the waste pile located on the ground?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the waste pile is located on the ground.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, stating that the waste pile is indeed located on the ground.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "Can you identify the color of the plastic material marked as 'PET'?",
+        "ground_truth": "blue",
+        "predicted": "<s> The color of the plastic material marked as 'PET' is clear.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer mentions the color as clear, which is not the ground truth. The correct answer is blue.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "Are there any torn or crumpled cardboard pieces in the waste pile?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there are several pieces of crumpled cardboard in the waste pile.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, including the detail of \"several pieces of crumpled cardboard\" which is present in the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "What is the primary purpose of the waste pile?",
+        "ground_truth": "recycling",
+        "predicted": "<s> The primary purpose of the waste pile in the image is to store and dispose of waste materials. The waste pile is typically located in an area designated for waste management, such as a landfill or a recycling center. The waste materials are collected and transported to the pile, where they are sorted and disposed of in an environmentally responsible manner. The waste pile helps to keep the surrounding area clean and reduces the risk of pollution or contamination from the waste materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it provides a detailed explanation of the waste pile\\'s purpose, including storage and disposal of waste materials, sorting, and environmentally responsible disposal. The only minor deviation from the ground truth is the lack of emphasis on recycling as the primary purpose, which is mentioned in the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "Can you identify the different colors of the paper in the waste pile?",
+        "ground_truth": "different colors",
+        "predicted": "<s> I'm sorry, but I am unable to provide an answer to this question as I am an AI language model and do not have the ability to see or interpret images. I can only provide text-based answers based on the information and knowledge that I have been trained on.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because it does not provide a direct answer to the question, instead, it explains the limitations of the AI model. The correct answer is \"different colors\" which is not mentioned in the predicted answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "Is the waste pile organized or sorted?",
+        "ground_truth": "no",
+        "predicted": "<s> The waste pile in the image appears to be organized and sorted. The waste is separated into different categories, which suggests that it has been arranged in a systematic and orderly manner. This type of organization can make it easier to identify and remove specific types of waste, as well as to recycle or dispose of it properly. It can also help to reduce the amount of time and effort required to manage the waste, as well as to minimize the potential for accidents or injuries.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the waste pile is organized and sorted, which is in contrast to the ground truth answer that it is not. The predicted answer provides a detailed explanation of the organization, but it does not align with the correct answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "Can you identify the type of plastic material that is not marked as 'PET'?",
+        "ground_truth": "soft plastic",
+        "predicted": "<s> Yes, I can identify the type of plastic material that is not marked as 'PET'. The image shows a plastic bottle with a label that reads \"PET\", indicating that it is made of polyethylene terephthalate, a common type of plastic. However, there is also a small part of the bottle that is not labeled as \"PET\". This unlabeled part of the bottle is likely made of a different type of plastic, such as polypropylene or polyethylene.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer correctly identifies the unlabeled part of the plastic bottle as a different type of plastic, such as polypropylene or polyethylene, which is not marked as \"PET\".'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "What is the primary object depicted in the image?",
+        "ground_truth": "A pile of waste materials",
+        "predicted": "<s> The primary object depicted in the image is a pile of various items, including newspapers, plastic bags, and other miscellaneous items, all scattered on the ground.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it accurately identifies the primary object as a pile of various items, including newspapers, plastic bags, and other miscellaneous items, all scattered on the ground. The only minor discrepancy is the level of specificity, as the predicted answer provides more details than the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "Is the waste material in the image sorted or unsorted?",
+        "ground_truth": "Unsorted",
+        "predicted": "<s> The waste material in the image appears to be unsorted.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, stating that the waste material in the image appears to be unsorted, which is the correct answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "What is the condition of the waste materials in the image?",
+        "ground_truth": "Mixed",
+        "predicted": "<s> The waste materials in the image appear to be in a pile, and they are not neatly organized or contained. They seem to be in a state of disarray, which may indicate that they have not been properly managed or disposed of. This can be a potential environmental hazard, as improperly managed waste can contaminate soil and water sources, and pose health risks to humans and wildlife. It is important to properly manage and dispose of waste materials to prevent such negative impacts on the environment and public health.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the condition of the waste materials in the image as being in a state of disarray, which matches the ground truth answer \"Mixed\". The predicted answer also provides additional information about the potential environmental hazards and importance of proper waste management, which is not explicitly asked in the question but is still relevant to the topic.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "Are all the waste materials in the image intact?",
+        "ground_truth": "No",
+        "predicted": "<s> No, not all the waste materials in the image are intact. There is a pile of garbage that appears to be in poor condition and may be breaking down or decomposing.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is correct in stating that not all waste materials in the image are intact, and provides additional details about the condition of the waste materials.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "What is the dominant material type in the image?",
+        "ground_truth": "Cardboard",
+        "predicted": "<s> The dominant material type in the image is metal.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is metal, which does not match the ground truth answer which is Cardboard.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "Is the waste material in the image located on the ground?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste material in the image is located on the ground.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer accurately, providing additional context and details.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "What is the approximate size of the waste material pile in the image?",
+        "ground_truth": "Large",
+        "predicted": "<s> It is not possible for me to accurately estimate the size of the waste material pile in the image without more information or a clearer view of the pile. The size of the pile could vary greatly depending on the type and amount of waste it contains, as well as its location and surroundings. Additionally, the image may not provide a clear or accurate representation of the pile's size due to perspective, angle, or other factors.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because it does not provide a specific size, whereas the ground truth answer is \"Large\". The predicted answer is more of a justification for not providing a size rather than a specific size itself.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "Are some waste materials in the image crumpled or crushed?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, some waste materials in the image are crumpled or crushed.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, including the additional details provided.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "Is the waste material in the image a single type?",
+        "ground_truth": "No",
+        "predicted": "<s> Yes, the waste material in the image is a single type, which is plastic.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the waste material is a single type, which is plastic, whereas the ground truth answer is \"No\", indicating that the waste material is not a single type.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "What is the overall appearance of the waste material pile in the image?",
+        "ground_truth": "Cluttered",
+        "predicted": "<s> The waste material pile in the image appears to be large and disorganized, with various types of waste materials piled on top of each other. The pile is located in an outdoor area, and it is not clear what the specific contents of the pile are. The overall appearance of the pile suggests that it has not been properly managed or contained, and it may pose a risk to the environment and public health if not addressed.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the waste material pile as large, disorganized, and potentially posing a risk to the environment and public health.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "Cardboard, soft plastic, and paper",
+        "predicted": "<s> The primary material composition of the waste pile appears to be a mix of paper, plastic, and possibly some other miscellaneous items. The presence of newspaper and plastic bags suggests that the waste includes discarded packaging materials, while the other items could be anything from food wrappers to personal belongings.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct as it mentions paper, plastic, and other miscellaneous items, which are all part of the ground truth answer. The only difference is that the predicted answer provides more specific details about the types of plastic and paper, which are not present in the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "Is the waste pile located on the ground?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is located on the ground.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, providing a detailed explanation of the location of the waste pile.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "What is the condition of the waste materials in the pile?",
+        "ground_truth": "Varying states of disarray",
+        "predicted": "<s> The waste materials in the pile appear to be in a state of disarray, with various items mixed together and not organized in any particular way. This suggests that the pile has not been properly managed or sorted, and the waste may not be easily accessible or identifiable. This can lead to inefficiencies in waste disposal and recycling, as well as potential environmental and health risks. Proper waste management practices, such as sorting and organizing waste materials, can help to mitigate these risks and improve the overall effectiveness of waste disposal and recycling efforts.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the condition of the waste materials in the pile, mentioning varying states of disarray, mixed items, and lack of organization, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "Are some waste materials partially obscured by the pile?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, some waste materials are partially obscured by the pile.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, including the additional details provided.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "What is the possible location of the waste pile?",
+        "ground_truth": "Recycling facility or waste management area",
+        "predicted": "<s> Based on the image provided, it is not possible to determine the exact location of the waste pile. The image shows a general view of a waste pile, but there are no distinctive landmarks or features that can be used to identify its specific location. Additionally, the image does not provide any information about the size or type of the waste pile, which would be necessary to determine its potential impact on the environment or public health.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer does not provide a specific location, whereas the ground truth answer specifies a location, which is a recycling facility or waste management area.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "What type of waste materials are recyclable or compostable?",
+        "ground_truth": "Soft plastic and paper",
+        "predicted": "<s> Based on the image provided, it appears to be a picture of a trash bin with various types of waste materials. However, without more specific information about the contents of the bin, it is not possible to definitively determine which, if any, of the waste materials are recyclable or compostable.\n\nIn general, recyclable materials include items such as paper, cardboard, glass, metal, and plastic, which can be processed and reused to create new products. Compostable materials, on the other hand, are organic waste materials such as food scraps, yard waste, and paper products that can be broken down and decomposed naturally to create compost, which can be used as a natural fertilizer for gardens and landscaping.\n\nTo determine which waste materials in the image are recyclable or compostable, it would be necessary to know the specific contents of the bin.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer does not provide a specific type of waste materials that are recyclable or compostable, whereas the ground truth answer is \"Soft plastic and paper\". The predicted answer is a general explanation of recyclable and compostable materials, but does not provide a specific answer to the question.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "Is the waste pile scattered around the area?",
+        "ground_truth": "Yes",
+        "predicted": "<s> Yes, the waste pile is scattered around the area.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, including the additional details provided.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "What is the overall theme of the image?",
+        "ground_truth": "Waste management and recycling",
+        "predicted": "<s> The image depicts a group of people standing in front of a building with a sign that reads \"The Future is Female.\" The overall theme of the image is likely to promote gender equality and the empowerment of women. The sign serves as a symbol of support and encouragement for women to pursue their goals and dreams, and to challenge any barriers or stereotypes that may exist. The image may also be used to raise awareness about issues related to women's rights, such as equal pay, reproductive rights, and representation in leadership positions.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is focused on promoting gender equality and empowerment of women, whereas the ground truth is about waste management and recycling, which is a completely different theme.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "Are all waste materials in the pile clearly visible?",
+        "ground_truth": "No",
+        "predicted": "<s> No, not all waste materials in the pile are clearly visible. The image shows a pile of waste, but it is not possible to determine the exact contents of the pile without further information or a closer examination of the waste materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the image, mentioning that not all waste materials are clearly visible and providing additional context about the need for further information or closer examination.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "What is the primary purpose of the location where the waste pile is located?",
+        "ground_truth": "To manage and recycle waste",
+        "predicted": "<s> The primary purpose of the location where the waste pile is located is to serve as a landfill. Landfills are designed to dispose of waste materials, and the pile of garbage in the image is an example of waste that has been disposed of in this manner.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 2, 'reason': 'The predicted answer is incorrect because it specifically states that the primary purpose of the location is to serve as a landfill, which is not the ground truth. The ground truth is to manage and recycle waste, which is a broader and more accurate description of the location\\'s purpose.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "What is the primary material composition of the waste pile?",
+        "ground_truth": "The primary material composition of the waste pile is a mix of rigid plastic, cardboard, and soft plastic.",
+        "predicted": "<s> The primary material composition of the waste pile appears to be a mix of paper, plastic, and possibly other miscellaneous items. The presence of newspaper, plastic bags, and possibly other packaging materials suggests that the waste is a combination of discarded items that are not being properly disposed of or recycled.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly correct, as it mentions a mix of paper, plastic, and possibly other miscellaneous items, which aligns with the ground truth answer. The only difference is that the ground truth answer specifically mentions rigid plastic, cardboard, and soft plastic, which are not mentioned in the predicted answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Is the waste pile situated on a flat surface?",
+        "ground_truth": "Yes, the waste pile is situated on the ground.",
+        "predicted": "<s> Yes, the waste pile is situated on a flat surface.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer is correct because it accurately describes the location of the waste pile as being situated on a flat surface, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Can you describe the condition of the waste materials in the pile?",
+        "ground_truth": "The condition of the waste materials is mixed, with some appearing crumpled and others more flattened.",
+        "predicted": "<s> Based on the image, the waste materials in the pile appear to be in a relatively compact and dense state. The waste is not spread out or scattered, but rather appears to be piled up on top of each other. This could indicate that the waste has not been recently added to the pile, or that it has been compacted or compressed in some way. The exact condition of the waste materials cannot be determined without further information or a closer examination of the pile.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the condition of the waste materials as compact and dense, and provides a plausible explanation for this condition, which is consistent with the ground truth answer. The only minor discrepancy is that the predicted answer does not mention the mixed condition of the waste materials, which is mentioned in the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Is the waste pile located in an outdoor setting?",
+        "ground_truth": "It is likely that the waste pile is located in an outdoor area.",
+        "predicted": "<s> Yes, the waste pile is located in an outdoor setting.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies the waste pile as being located in an outdoor setting, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "What is the approximate size of the waste pile?",
+        "ground_truth": "The pile appears to be quite large.",
+        "predicted": "<s> I'm sorry, but I cannot provide an answer to your question as there is no image attached to your message. Please provide me with the image so that I can assist you further.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because it does not provide an answer to the question about the size of the waste pile. Instead, it asks for an image attachment, which is not relevant to the question.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Are there any visible signs of decomposition or decay on the waste materials?",
+        "ground_truth": "There is no indication of decomposition or decay on the waste materials.",
+        "predicted": "<s> Based on the image provided, it is not possible to definitively determine if there are any visible signs of decomposition or decay on the waste materials. The image only shows a close-up view of the waste materials, and it is not possible to clearly see the condition of the materials without a broader context or a closer inspection.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately acknowledges that the provided image is not sufficient to determine decomposition or decay, and that a broader context or closer inspection is needed.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Can you identify the type of plastic waste present in the pile?",
+        "ground_truth": "The waste pile contains rigid plastic, soft plastic, and possibly other types of plastic waste.",
+        "predicted": "<s> Based on the image, it is difficult to definitively identify the type of plastic waste present in the pile. However, it appears to be a mixture of different types of plastic, including what looks like a plastic bag and some other types of plastic containers or packaging. Without more specific information or a closer examination of the waste, it is not possible to determine the exact types of plastic present.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately describes the mixture of plastic waste present in the pile, including rigid and soft plastics, and acknowledges the limitations of identification without further information.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Is the waste pile situated near a body of water?",
+        "ground_truth": "There is no indication that the waste pile is situated near a body of water.",
+        "predicted": "<s> Yes, the waste pile is situated near a body of water.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because the ground truth explicitly states that there is no indication that the waste pile is situated near a body of water, which contradicts the predicted answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Can you describe the overall appearance of the waste pile?",
+        "ground_truth": "The waste pile appears to be a large, mixed pile of waste materials.",
+        "predicted": "<s> The waste pile in the image appears to be quite large and is composed of various types of trash. It is piled up in a haphazard manner, with some items sticking out of the top, and it extends up the side of a hill. The trash includes what looks like household items and possibly some construction debris. The overall appearance of the waste pile is unsightly and indicates a lack of proper waste management in the area.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer is mostly accurate in describing the overall appearance of the waste pile, including its size, composition, and appearance. The only minor discrepancy is the lack of mention of the waste pile extending up the side of a hill in the ground truth answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Is the waste pile situated in a densely populated urban area?",
+        "ground_truth": "There is no indication that the waste pile is situated in a densely populated urban area.",
+        "predicted": "<s> Yes, the waste pile is situated in a densely populated urban area.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because there is no indication that the waste pile is situated in a densely populated urban area, as stated in the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Can you identify any potential environmental hazards associated with the waste pile?",
+        "ground_truth": "The waste pile may pose environmental hazards due to its size and mixed composition.",
+        "predicted": "<s> Yes, based on the image, there are a few potential environmental hazards associated with the waste pile. Firstly, the pile appears to be quite large and contains various types of waste, including what looks like construction debris. This can pose a risk of contamination to the surrounding soil and water sources if the waste is not properly contained or managed.\n\nSecondly, the waste pile is located near a body of water, which can exacerbate the risk of contamination if the waste were to leak or spill into the water. This can have negative impacts on aquatic ecosystems and potentially affect human health if people come into contact with the contaminated water.\n\nLastly, the pile is also located near a forest, which can be affected by the waste if it were to leak or spread into the surrounding vegetation. This can have negative impacts on plant and animal life in the area, as well as potentially affect human health if people come into contact with contaminated plants or animals.\n\nOverall, it is important to properly manage and dispose of waste to mitigate these potential environmental hazards.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer accurately identifies potential environmental hazards associated with the waste pile, including its size and mixed composition, location near water and forest, and potential risks of contamination, leakage, and spread of waste. The predicted answer also provides a comprehensive explanation of the potential impacts on ecosystems and human health, and emphasizes the importance of proper waste management and disposal.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000191.PNG",
+        "question": "What is the dominant color of the floor in the image?",
+        "ground_truth": "black",
+        "predicted": "<s> The dominant color of the floor in the image is black.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, indicating that the dominant color of the floor in the image is indeed black.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000191.PNG",
+        "question": "Are the waste materials in the image mostly rigid?",
+        "ground_truth": "no",
+        "predicted": "<s> Yes, the waste materials in the image are mostly rigid.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer states that the waste materials in the image are mostly rigid, which contradicts the ground truth answer which is \"no\", indicating that the waste materials are not mostly rigid.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000191.PNG",
+        "question": "Can you spot any flattened waste materials in the image?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there is a flattened piece of cardboard in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies the flattened waste material as a piece of cardboard, matching the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000191.PNG",
+        "question": "Is the pile of waste materials situated in a bright and well-lit area?",
+        "ground_truth": "no",
+        "predicted": "<s> Yes, the pile of waste materials is situated in a bright and well-lit area.</s>",
+        "evaluation": "'predicted': 'incorrect', 'score': 0, 'reason': 'The predicted answer is incorrect because the ground truth answer is \"no\", indicating that the pile of waste materials is not situated in a bright and well-lit area, which is the opposite of the predicted answer.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000191.PNG",
+        "question": "Are the waste materials in the image mostly made of plastic?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, the waste materials in the image are mostly made of plastic.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth answer, and the level of detail provided is sufficient to confirm the correctness of the prediction.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000191.PNG",
+        "question": "Can you identify any crumpled waste materials in the image?",
+        "ground_truth": "yes",
+        "predicted": "<s> Yes, there is a crumpled piece of paper in the image.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 4, 'reason': 'The predicted answer accurately identifies the crumpled waste material as a piece of paper, which matches the ground truth.'"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000191.PNG",
+        "question": "Is the waste material in the image a single type?",
+        "ground_truth": "no",
+        "predicted": "<s> No, the waste material in the image is not a single type. It is a mixture of different types of waste materials.</s>",
+        "evaluation": "'predicted': 'correct', 'score': 5, 'reason': 'The predicted answer matches the ground truth, accurately describing the mixture of different types of waste materials in the image.'"
+    }
+]

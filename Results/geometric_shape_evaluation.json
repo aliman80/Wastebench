@@ -1,0 +1,1344 @@
+[
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "Are the waste materials in the image the same size and shape?",
+        "ground_truth": "no",
+        "predicted": "The waste materials in the image are of different sizes and shapes, including newspapers, books, and cardboard.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer correctly identifies that waste materials in the image are of different sizes and shapes, which aligns with the ground truth answer stating that they are not the same size and shape."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "What is the shape and size of the largest object in the pile of waste materials?",
+        "ground_truth": "various sizes and shapes",
+        "predicted": "The largest object in the pile of waste materials is a piece of cardboard, which is described as large and of unknown dimensions.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer accurately describes the largest object in the pile of waste materials as a piece of cardboard, even though the ground truth only mentioned various sizes and shapes. While the predicted answer provides additional detail about the specific material and size, it still aligns with the general description from the ground truth."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000311.PNG",
+        "question": "What is the shape of some of the waste materials in the image?",
+        "ground_truth": "various",
+        "predicted": "Some of the waste materials in the image are in the shape of newspapers, which have been crumpled and torn.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it focuses on specific waste material shapes like newspapers, while the ground truth only mentions the shape as various."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000331.PNG",
+        "question": "What is the approximate shape of the waste materials in the image?",
+        "ground_truth": "various",
+        "predicted": "The waste materials in the image are in the form of crumpled newspapers, plastic, and possibly other items mixed together.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer captures the main idea that the waste materials are mixed together, even though it does not explicitly mention the approximate shape as \"various\". Therefore, it is considered a correct prediction."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000511.PNG",
+        "question": "What is the shape of the waste pile?",
+        "ground_truth": "Scattered",
+        "predicted": "The waste pile is in the shape of a box.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it provides specific information about the shape of the waste pile as a box, while the correct answer indicates the waste pile is scattered."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000541.PNG",
+        "question": "Are the waste materials in the pile of different sizes and shapes?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, the waste materials in the pile are of different sizes and shapes, indicating a diverse range of items that have been discarded.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer maintains the same information as the ground truth answer, providing additional details that strengthen the response."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000631.PNG",
+        "question": "What is the dominant shape of the waste materials in the pile?",
+        "ground_truth": "Varied",
+        "predicted": "The dominant shape of the waste materials in the pile is square-shaped.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is partially incorrect as it specifies \"square-shaped\" which is more specific than the ground truth \"varied\"."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000701.PNG",
+        "question": "What is the dominant shape of the waste materials in the image?",
+        "ground_truth": "various",
+        "predicted": "The dominant shape of the waste materials in the image is square.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it mentions a specific shape (square) while the ground truth answer is more general (various). The predicted answer does not match the level of detail in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000701.PNG",
+        "question": "Are the waste materials in the image mostly rectangular or irregularly shaped?",
+        "ground_truth": "irregularly shaped",
+        "predicted": "The waste materials in the image are mostly irregularly shaped.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer matches the ground truth answer exactly without any additional details or ambiguities."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000821.PNG",
+        "question": "What is the approximate shape of the largest object in the waste pile?",
+        "ground_truth": "Irregular",
+        "predicted": "The largest object in the waste pile is a crumpled-up newspaper.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer \"The largest object in the waste pile is a crumpled-up newspaper\" does not exactly match the ground truth answer \"Irregular.\" However, it does not provide contradictory information and can be considered to be correct in a general sense."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000821.PNG",
+        "question": "What is the approximate shape of the smallest object in the waste pile?",
+        "ground_truth": "Rectangular",
+        "predicted": "The smallest object in the waste pile is a piece of paper, which is approximately square-shaped.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer is correct as it provides the approximate shape (square-shaped) of the smallest object in the waste pile, which meets the specificity of the question."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000851.PNG",
+        "question": "What is the shape and size of the paper in the pile?",
+        "ground_truth": "Different sizes and shapes",
+        "predicted": "The paper in the pile is of various shapes and sizes, including pieces of different colors and sizes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer includes all the necessary details mentioned in the ground truth answer, with additional information about colors."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000911.PNG",
+        "question": "What is the shape of the waste pile in the image?",
+        "ground_truth": "a pile",
+        "predicted": "The waste pile in the image is described as a large mound or a big heap.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer is correct as it accurately describes the waste pile as a large mound or heap, matching the ground truth answer 'a pile'."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000921.PNG",
+        "question": "What is the shape of the waste materials in the pile?",
+        "ground_truth": "different sizes and shapes",
+        "predicted": "The waste materials in the pile are in the shape of bags.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is not correct as it does not match the ground truth. The predicted answer mentions bags as the shape of the waste materials, while the ground truth specifies that the waste materials are in different sizes and shapes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000941.PNG",
+        "question": "What is the shape of the waste materials in the pile?",
+        "ground_truth": "Varied",
+        "predicted": "The waste materials in the pile are in the shape of bags.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 3,
+            "reason": "The predicted answer provides a specific shape (bags) which is not mentioned in the ground truth. The correct answer is \"varied\" which is more general and encompasses a wider range of shapes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000961.PNG",
+        "question": "What is the shape of the waste materials in the image?",
+        "ground_truth": "various shapes, including rectangular, square, and irregular",
+        "predicted": "The waste materials in the image are in the form of bags and packaging materials.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer does not mention the various shapes of the waste materials as stated in the ground truth answer. It provides specific details about bags and packaging materials which are not exhaustive."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000981.PNG",
+        "question": "What is the approximate shape of the waste pile?",
+        "ground_truth": "scattered",
+        "predicted": "The waste pile is roughly in the shape of a boot.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is partially correct as it describes the shape of the waste pile as a boot, but it is not in accordance with the ground truth which states that the waste pile is scattered."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003020.PNG",
+        "question": "What is the shape of the object in the center of the table?",
+        "ground_truth": "rigid",
+        "predicted": "The object in the center of the table is square-shaped.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer is correct as it provides information about the shape of the object in the center of the table, even though the exact shape is not specified in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003030.PNG",
+        "question": "What is the shape of the object with a blue label?",
+        "ground_truth": "bottle",
+        "predicted": "There is no existence of the shape of the object with a blue label.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 1,
+            "reason": "The predicted answer does not provide the correct shape of the object with a blue label, which is a bottle. It only states that there is no existence of the shape without mentioning the actual shape."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003040.PNG",
+        "question": "Is the milk jug and juice box the same shape?",
+        "ground_truth": "unknown",
+        "predicted": "Yes, both the milk jug and juice box are cylindrical in shape.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 3,
+            "reason": "The predicted answer contains additional details (cylindrical in shape) which were not provided in the ground truth answer. As the ground truth answer is unknown, adding specifics may lead to an incorrect prediction. "
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003170.PNG",
+        "question": "What is the size and shape of the waste materials?",
+        "ground_truth": "Scattered across the floor in different sizes and shapes.",
+        "predicted": "The waste materials are large and have a pumpkin shape.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as it does not match the specific details mentioned in the ground truth answer regarding the size and shape of the waste materials. The predicted answer describes the waste materials as large and pumpkin-shaped, whereas the ground truth answer mentions waste materials scattered across the floor in different sizes and shapes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003170.PNG",
+        "question": "Are the waste materials of different sizes and shapes?",
+        "ground_truth": "Yes.",
+        "predicted": "The waste materials consist of different sizes and shapes, including paper, plastic, and glass.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer includes specific examples (paper, plastic, glass) but still conveys the main idea that waste materials are of different sizes and shapes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003190.PNG",
+        "question": "Are there any objects in the image that are the same shape and size?",
+        "ground_truth": "no",
+        "predicted": "Yes, there is a coin in the image that is the same shape and size as the hole in the table.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer provides additional details that were not mentioned in the ground truth answer, leading to an incorrect evaluation."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003230.PNG",
+        "question": "What is the size and shape of the waste materials in the image?",
+        "ground_truth": "The waste materials are scattered across the floor in different sizes and shapes.",
+        "predicted": "The waste materials in the image are small and of various shapes, including pieces of paper, cardboard, and other debris.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer captured the key details of the ground truth answer by mentioning the various shapes of the waste materials and also provided specific examples like pieces of paper and cardboard. However, it did not mention that the waste materials are scattered across the floor."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003420.PNG",
+        "question": "What is the shape of the objects on the top left and top right corners of the image?",
+        "ground_truth": "Bottle cap and bottle",
+        "predicted": "The objects on the top left and top right corners of the image are square-shaped.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as it describes the shape of the objects instead of identifying them as bottle cap and bottle."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003430.PNG",
+        "question": "What is the shape of the object on the bottom right corner?",
+        "ground_truth": "soft",
+        "predicted": "The object on the bottom right corner is round.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer is generally correct as it identifies the shape of the object as round, which is similar to the ground truth of being soft. However, the answer lacks the specific detail of softness mentioned in the ground truth."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003440.PNG",
+        "question": "Are all the waste materials rectangular in shape?",
+        "ground_truth": "No",
+        "predicted": "No, there are waste materials with different shapes, such as round and rectangular.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer correctly identifies that waste materials can have different shapes besides being rectangular, aligning with the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003500.PNG",
+        "question": "What is the shape of the waste materials in the image?",
+        "ground_truth": "Crumpled",
+        "predicted": "The waste materials in the image are in the shape of bags.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is partially correct as it describes the shape of bags, but the more specific and accurate term \"crumpled\" was not mentioned."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003580.PNG",
+        "question": "What is the shape of the waste materials?",
+        "ground_truth": "Various",
+        "predicted": "The waste materials are in various shapes, including a rectangle, square, and irregular shape.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer contains additional specific details beyond what is required in the question. The ground truth answer is more general, stating \"Various\", while the predicted answer mentions specific shapes like rectangle, square, and irregular shape. However, the overall meaning of the predicted answer is correct as it includes the general idea that waste materials can have different shapes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003850.PNG",
+        "question": "What is the shape of the waste materials in the image?",
+        "ground_truth": "scattered across the floor",
+        "predicted": "The waste materials in the image are in the shape of a star.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as the waste materials are not in the shape of a star as mentioned, but scattered across the floor as stated in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/09_frame_003970.PNG",
+        "question": "Are the waste materials in the image mostly rectangular in shape?",
+        "ground_truth": "No",
+        "predicted": "The waste materials in the image are mostly rectangular in shape.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 0,
+            "reason": "The predicted answer is the opposite of the ground truth answer, making it completely incorrect."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000191.PNG",
+        "question": "What is the shape of the object on top of the pile?",
+        "ground_truth": "Rectangular",
+        "predicted": "The object on top of the pile is triangular in shape.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 3,
+            "reason": "The predicted answer is incorrect as it states the shape of the object on top of the pile as triangular, while the ground truth mentions it as rectangular. The predicted answer is not accurate in this case."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000191.PNG",
+        "question": "What is the material of the object in the shape of a bottle?",
+        "ground_truth": "Soft plastic",
+        "predicted": "The object in the shape of a bottle is made of plastic.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer 'The object in the shape of a bottle is made of plastic.' captures the essence of the ground truth answer 'Soft plastic' accurately, even though it is less specific."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000191.PNG",
+        "question": "Is the object in the shape of a bottle used for packaging liquids?",
+        "ground_truth": "True",
+        "predicted": "There is no existence of a bottle-shaped object in the image.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as it states that there is no bottle-shaped object in the image, which does not directly address the question about the object being used for packaging liquids. The predicted answer lacks specificity and does not align with the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000191.PNG",
+        "question": "What is the object in the shape of a bottle being used for?",
+        "ground_truth": "Packaging liquids",
+        "predicted": "The object in the shape of a bottle is being used as a sorting tool to pick up trash and place it into a recycling bin.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 1,
+            "reason": "The predicted answer lacks accuracy and specific details compared to the ground truth answer. The predicted answer introduces a new context of using the bottle shape as a sorting tool for trash, which is not mentioned in the question or ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000221.PNG",
+        "question": "What is the approximate shape of some of the waste materials?",
+        "ground_truth": "crumpled or balled up",
+        "predicted": "Some of the waste materials are in the shape of bags and boxes.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer does not match the specific shape mentioned in the ground truth answer. The waste materials should be crumpled or balled up, not in the shape of bags and boxes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000441.PNG",
+        "question": "Are the waste materials in the image different sizes and shapes?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, the waste materials in the image are of different sizes and shapes, including bags and boxes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer includes additional details but it aligns perfectly with the ground truth answer, confirming that the waste materials in the image are of different sizes and shapes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000591.PNG",
+        "question": "What is the approximate shape of the largest object in the waste pile?",
+        "ground_truth": "Various sizes and shapes",
+        "predicted": "The largest object in the waste pile is a white plastic bag.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it provides a specific detail about the largest object in the waste pile (white plastic bag) while the ground truth mentions various sizes and shapes without specific details."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000591.PNG",
+        "question": "Are there any objects in the waste pile that are not in their original shape?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, there are crushed plastic bottles in the waste pile, which are not in their original shape.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer includes specific details about crushed plastic bottles, which are not explicitly mentioned in the question. However, the essence of the answer is correct as it states that there are objects in the waste pile that are not in their original shape."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000601.PNG",
+        "question": "What is the shape of the waste materials in the image?",
+        "ground_truth": "Crumpled",
+        "predicted": "The waste materials in the image are in the form of crumpled paper and aluminum foil.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer is correct as it includes the shape of the waste materials as crumpled. It provides additional details as well, which adds more context but is not necessary for the correctness of the answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000751.PNG",
+        "question": "What is the shape of some of the items in the pile?",
+        "ground_truth": "Unidentifiable",
+        "predicted": "Some of the items in the pile are in the shape of a rectangle.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as it provides a specific shape (rectangle) while the ground truth mentions the items as unidentifiable. However, some items in the pile might be in the shape of a rectangle, but the correct answer should align with the ground truth which states the items as unidentifiable."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000801.PNG",
+        "question": "What is the shape of the largest object in the image?",
+        "ground_truth": "The largest object is a rectangular cardboard box.",
+        "predicted": "The largest object in the image is a brown paper bag.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it refers to a brown paper bag instead of a rectangular cardboard box, which is the correct answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000811.PNG",
+        "question": "Are there any objects in the image that are still in their original shape?",
+        "ground_truth": "yes",
+        "predicted": "No, there are no objects in the image that are still in their original shape. The image shows a pile of crumpled paper and other trash, which indicates that the items have been damaged or deformed.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as it states that there are no objects in the image that are still in their original shape, whereas the ground truth answer is yes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000821.PNG",
+        "question": "What is the shape of the largest object in the image?",
+        "ground_truth": "Variable",
+        "predicted": "The largest object in the image is a piece of cardboard.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it did not mention that the shape of the largest object in the image is variable, rather than specifically a piece of cardboard."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000881.PNG",
+        "question": "Are there any objects in the image that are still in their original shape?",
+        "ground_truth": "No",
+        "predicted": "No, there are no objects in the image that are still in their original shape. The image shows a pile of crumpled paper and other trash, which indicates that the items have been discarded and are no longer in their original form.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer matches the ground truth by stating that there are no objects in the image that are still in their original shape. Although the predicted answer provides additional details about the image, it does not affect the overall correctness of the response."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000951.PNG",
+        "question": "Are the waste materials in the image of different sizes and shapes?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, the waste materials in the image consist of different sizes and shapes, including bags and boxes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer includes specific details about the waste materials in the image, which aligns with the ground truth answer. The additional details provided do not contradict the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000961.PNG",
+        "question": "Are all the waste materials in the same shape?",
+        "ground_truth": "no",
+        "predicted": "No, the waste materials are in different shapes, including bags, boxes, and other\u5305\u88c5\u5e9f\u5f03\u7269.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer accurately captures the main point of the ground truth answer by mentioning that waste materials are in different shapes, which aligns with the fact that they are not all in the same shape."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_025500.PNG",
+        "question": "What is the shape of the tape depicted in the image?",
+        "ground_truth": "not specified",
+        "predicted": "The tape in the image is described as rectangular.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it provides specific details about the shape of the tape (rectangular) whereas the ground truth answer states that the shape is not specified. Therefore, the predicted answer is not entirely correct."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_025600.PNG",
+        "question": "What is the shape of the paper in the image?",
+        "ground_truth": "crumpled",
+        "predicted": "The paper in the image is square-shaped.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer \"The paper in the image is square-shaped\" is not correct as it does not match the ground truth answer \"crumpled\". The prediction focuses on the shape being square, whereas the correct answer should focus on the condition of the paper as crumpled."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_026100.PNG",
+        "question": "Are all the materials in the waste pile the same size and shape?",
+        "ground_truth": "no",
+        "predicted": "No, the materials in the waste pile consist of different sizes and shapes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer accurately reflects that the materials in the waste pile are of different sizes and shapes, which aligns with the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_026300.PNG",
+        "question": "Are there different sizes and shapes of waste materials in the pile?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, the pile of waste materials consists of different sizes and shapes, including newspapers, boxes, and other packaging materials.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer is correct as it confirms the presence of different sizes and shapes of waste materials in the pile, even though it provides additional specific examples such as newspapers, boxes, and other packaging materials."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_026600.PNG",
+        "question": "Are all the waste materials in the image in different shapes and sizes?",
+        "ground_truth": "No",
+        "predicted": "Yes, the waste materials in the image include different shapes and sizes, such as a brick, a paper bag, and a piece of paper.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer includes specific details about the shapes and sizes of waste materials, which goes against the ground truth answer of \"No\"."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_026900.PNG",
+        "question": "What is the shape of the crumpled object in the image?",
+        "ground_truth": "Crumpled",
+        "predicted": "The crumpled object in the image is square-shaped.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer is correct as it identifies the shape of the crumpled object, even though it includes additional details (square-shaped) which were not explicitly asked in the question. The answer is still accurate and relevant to the question."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_029700.PNG",
+        "question": "Are the objects in the pile of different sizes and shapes?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, the objects in the pile are of different sizes and shapes, indicating a diverse range of materials being recycled.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer provides the same information as the ground truth answer and includes additional details that enhance the understanding of the context without changing the main message."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_030300.PNG",
+        "question": "What is the approximate shape of the waste materials in the pile?",
+        "ground_truth": "Varied",
+        "predicted": "The waste materials in the pile are in various shapes, including rectangular, square, and cylindrical.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer is correct as it provides additional specific details about the shapes of the waste materials, which align with the ground truth answer of \"varied\". However, the predicted answer includes specific shapes like rectangular, square, and cylindrical, which are not explicitly mentioned in the ground truth answer. Hence, a moderate score of 3 is assigned."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_031300.PNG",
+        "question": "What is the shape of the waste materials in the image?",
+        "ground_truth": "Various",
+        "predicted": "The waste materials in the image are in the shape of a letter \"M\".",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it provides a specific shape (\"letter M\") which does not match the more general response in the ground truth (\"Various\")."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_032300.PNG",
+        "question": "What is the shape of some of the waste materials?",
+        "ground_truth": "crumpled or torn",
+        "predicted": "Some of the waste materials are in the shape of boxes, bags, and other packaging.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer does not match the specific shapes mentioned in the ground truth answer (boxes, bags, and other packaging), hence it is incorrect."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_032500.PNG",
+        "question": "What type of material is seen in various shapes and sizes in the pile?",
+        "ground_truth": "Cardboard",
+        "predicted": "In the pile, there are various shapes and sizes of paper, including pieces of cardboard, which are likely trash.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer correctly identifies cardboard as the material in various shapes and sizes in the pile, despite some additional information about paper being mentioned."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_032500.PNG",
+        "question": "What is the shape of the waste pile in the image?",
+        "ground_truth": "Large and takes up a significant portion of the image",
+        "predicted": "The waste pile in the image is square-shaped.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is partially correct in mentioning the shape of the waste pile as square-shaped, but it lacks accuracy in not specifying the size or how it occupies a significant portion of the image as mentioned in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_033600.PNG",
+        "question": "What is the shape of the waste materials in the image?",
+        "ground_truth": "Crumpled",
+        "predicted": "The waste materials in the image are in the shape of bags and are crumpled up.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer captures the main shape of the waste materials (crumpled) mentioned in the ground truth, although it includes additional details about bags. Overall, the prediction is accurate."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_033700.PNG",
+        "question": "Are the objects in the image of different sizes and shapes?",
+        "ground_truth": "Yes, the cardboard is in different sizes and shapes",
+        "predicted": "Yes, the objects in the image are of different sizes and shapes, including a mix of materials like paper, plastic, and cardboard.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer captures the main information accurately and includes additional details about the mix of materials, which is not explicitly required in the question."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_034400.PNG",
+        "question": "What is the approximate shape of the waste pile?",
+        "ground_truth": "a pile",
+        "predicted": "The waste pile is roughly square-shaped.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer captures the approximate shape as square, which is close enough to the ground truth of a pile. However, the additional detail of being square-shaped is not necessary for this evaluation."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_035400.PNG",
+        "question": "What is the shape of some of the waste materials in the image?",
+        "ground_truth": "different shapes",
+        "predicted": "Some of the waste materials in the image are in the shape of clothes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer is partially correct as it mentions the shape of clothes in the image, but the ground truth answer is more general by mentioning 'different shapes'. Therefore, the predicted answer is considered correct with a score of 3 out of 5."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_035900.PNG",
+        "question": "What is the approximate shape of the largest object in the waste pile?",
+        "ground_truth": "Irregular",
+        "predicted": "The largest object in the waste pile is a white plastic bag.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer does not directly address the approximate shape of the largest object in the waste pile, as requested in the question. The ground truth answer \"Irregular\" provides the correct information about the shape."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_036000.PNG",
+        "question": "Are there any objects with different sizes and shapes in the waste pile?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, the waste pile contains various objects with different sizes and shapes, including paper bags, cardboard, and other waste materials.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer not only confirms the presence of objects with different sizes and shapes in the waste pile but also provides specific examples, which adds more detail to the response. The additional details do not contradict the ground truth answer and enhance the completeness of the prediction."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_036300.PNG",
+        "question": "Are there any recognizable shapes or forms in the waste pile?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, there are recognizable shapes in the waste pile, including a pink book and a blue package.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer correctly states that there are recognizable shapes in the waste pile, even though it provides additional specific details such as a pink book and a blue package which were not explicitly mentioned in the question."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_036400.PNG",
+        "question": "What is the dominant shape of the paper waste?",
+        "ground_truth": "Various",
+        "predicted": "The dominant shape of the paper waste is square-shaped.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it adds unnecessary details (square-shaped) that were not mentioned in the ground truth answer, which stated the dominant shape of the paper waste as 'Various'."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_036700.PNG",
+        "question": "What is the shape of the piece of wood in the image?",
+        "ground_truth": "unknown",
+        "predicted": "The piece of wood in the image is rectangular.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 2,
+            "reason": "The predicted answer is correct in terms of providing the shape as rectangular, even though the ground truth mentions the shape as unknown. The predicted answer does not contradict the ground truth and is plausible based on the image."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_037700.PNG",
+        "question": "Are there any recognizable shapes or forms in the waste pile?",
+        "ground_truth": "yes",
+        "predicted": "Yes, there is a recognizable shape of a person in the waste pile, which is formed from crumpled paper and other debris.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer is correct as it confirms the presence of recognizable shapes in the waste pile, even though it provides more specific details like a shape of a person."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_037900.PNG",
+        "question": "Are the waste materials in the image uniform in size and shape?",
+        "ground_truth": "No",
+        "predicted": "No, the waste materials in the image are of different sizes and shapes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer is correct and provides specific details matching the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_038400.PNG",
+        "question": "What is the shape of the waste materials in the pile?",
+        "ground_truth": "various shapes",
+        "predicted": "The waste materials in the pile are in various shapes, including squares, rectangles, and even wrapped in paper.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer includes additional specific details not mentioned in the ground truth answer, but the main point about waste materials being in various shapes is captured correctly."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_038500.PNG",
+        "question": "What is the dominant shape of the waste materials in the image?",
+        "ground_truth": "varied",
+        "predicted": "The dominant shape of the waste materials in the image is rectangular, as they are primarily composed of newspapers and other paper products.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it gives a specific shape (rectangular) whereas the ground truth answer mentions the shape as varied."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_038800.PNG",
+        "question": "Are the waste materials in the image in different sizes and shapes?",
+        "ground_truth": "yes",
+        "predicted": "Yes, the waste materials in the image include different sizes and shapes, such as a piece of paper, a plastic bottle, and a cardboard box.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer correctly identifies that the waste materials in the image are in different sizes and shapes. However, it provides specific examples which were not explicitly asked in the question. Thus, a score of 4 is given."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_040600.PNG",
+        "question": "Are all the waste materials in the image the same size and shape?",
+        "ground_truth": "No",
+        "predicted": "No, the waste materials in the image are of different sizes and shapes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer is correct and matches the ground truth exactly, providing the necessary details."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_041200.PNG",
+        "question": "What is the shape of the largest waste material in the image?",
+        "ground_truth": "Irregular",
+        "predicted": "The largest waste material in the image is a piece of cardboard.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is partially correct as it identifies the largest waste material, but it lacks the specific detail of describing the shape as irregular."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_042200.PNG",
+        "question": "Are there different sizes and shapes of waste materials in the pile?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, there is a pile of waste materials that include different sizes and shapes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer captures the essence of the ground truth accurately without adding any incorrect information. It maintains the key details of different sizes and shapes of waste materials in the pile."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_046200.PNG",
+        "question": "What is the shape of some of the waste materials in the pile?",
+        "ground_truth": "Crumpled or torn",
+        "predicted": "Some of the waste materials in the pile are in the shape of a baby.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as it does not match the shape of some of the waste materials described in the ground truth answer. The predicted answer talks about the shape of a baby, which is not mentioned in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_046700.PNG",
+        "question": "What is the shape of the oranges?",
+        "ground_truth": "Cut in half",
+        "predicted": "There are no oranges in the image description.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 1,
+            "reason": "The predicted answer is completely unrelated to the question and does not provide any information about the shape of the oranges. The predicted answer should at least mention something about the shape of the oranges to be considered partially correct."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_047200.PNG",
+        "question": "Are there different shapes and sizes of waste materials in the image?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, there are various shapes and sizes of waste materials, including paper, in the image.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer contains additional details which are not explicitly asked in the question. However, the main information about the presence of different shapes and sizes of waste materials is correctly provided."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/03_frame_049000.PNG",
+        "question": "What is the shape of the waste materials in the image?",
+        "ground_truth": "crumpled, twisted, and tangled",
+        "predicted": "The waste materials in the image are in various shapes, including a ball, a bag, and other random shapes.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 3,
+            "reason": "The predicted answer mentions specific shapes such as a ball and a bag, while the ground truth is more general in describing the shapes as crumpled, twisted, and tangled. Therefore, the predicted answer is not as accurate as the ground truth."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_024000.PNG",
+        "question": "Are there different sizes and shapes of waste materials in the pile?",
+        "ground_truth": "yes",
+        "predicted": "Yes, the pile of waste materials consists of different sizes and shapes, indicating a variety of items that have been discarded.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer is an accurate and detailed explanation that aligns perfectly with the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_024100.PNG",
+        "question": "Are there different shapes and sizes of waste materials in the image?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, there are different shapes and sizes of waste materials in the image, including paper, plastic, and cardboard.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer is correct as it includes the presence of different shapes and sizes of waste materials in the image, which aligns with the ground truth answer. However, the predicted answer provides additional specific details such as paper, plastic, and cardboard, which were not explicitly asked in the question. Hence, it is considered correct but with a slightly lower score."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_025100.PNG",
+        "question": "What is the size and shape of the waste pile?",
+        "ground_truth": "Variable, with different sizes and shapes",
+        "predicted": "The waste pile is large and messy, consisting of various items such as paper, plastic, and cardboard.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it provides specific details (large and messy, consisting of various items) which were not mentioned in the ground truth answer. The size and shape of the waste pile were described as variable with different sizes and shapes, not only large and messy."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_027300.PNG",
+        "question": "What is the primary shape or form of the waste materials in the image?",
+        "ground_truth": "The primary shape or form of the waste materials in the image is irregular.",
+        "predicted": "The primary shape or form of the waste materials in the image is that of crumpled paper and discarded boxes.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer contains more specific details than the ground truth answer. The primary shape or form mentioned in the ground truth is \"irregular\" while the predicted answer includes \"crumpled paper and discarded boxes\" which is more specific."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_027600.PNG",
+        "question": "What is the shape of the waste materials in the image?",
+        "ground_truth": "Varied",
+        "predicted": "The waste materials in the image are in the form of crumpled newspapers and rags.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer \"The waste materials in the image are in the form of crumpled newspapers and rags.\" provides specific details about the shape of the waste materials as crumpled newspapers and rags, which is more specific than the general answer \"Varied\" provided in the ground truth. However, the general concept of varied shapes is included in the predicted answer, hence it is considered as correct with a middle score of 3."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_028000.PNG",
+        "question": "Are all the objects in the image the same size and shape?",
+        "ground_truth": "No",
+        "predicted": "No, the objects in the image are of different sizes and shapes, including various containers, boxes, and pieces of paper.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer correctly identifies that the objects in the image are of different sizes and shapes, which aligns with the ground truth answer of \"No\"."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_028800.PNG",
+        "question": "What is the primary shape of the waste materials in the pile?",
+        "ground_truth": "Irregular",
+        "predicted": "The primary shape of the waste materials in the pile is square.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it provides the shape as square instead of irregular as mentioned in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_028900.PNG",
+        "question": "What is the shape of the paper item in the image?",
+        "ground_truth": "envelope",
+        "predicted": "The paper item in the image is square-shaped.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is not correct as it describes the shape as square-shaped, while the ground truth answer specifies it as an envelope."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_031000.PNG",
+        "question": "Are the waste materials in the pile primarily rectangular in shape?",
+        "ground_truth": "No",
+        "predicted": "The waste materials in the pile are primarily of irregular shapes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer captures the essence of the ground truth by stating that the waste materials in the pile are of irregular shapes, which aligns with the given correct answer that they are not primarily rectangular in shape."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_031200.PNG",
+        "question": "Are all the waste materials in the image the same size and shape?",
+        "ground_truth": "No, the cardboard is in different sizes and shapes",
+        "predicted": "No, the waste materials in the image are of different sizes and shapes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer matches the ground truth answer exactly, stating that the waste materials in the image are of different sizes and shapes, which is correct. There is no additional irrelevant information provided."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_032200.PNG",
+        "question": "What is the shape of the waste materials in the image?",
+        "ground_truth": "Various",
+        "predicted": "The waste materials in the image are in the form of crumpled paper and packaging materials.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer is correct as it provides specific details about the waste materials in the image, even though the ground truth answer is more general in nature."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_032500.PNG",
+        "question": "Are there different sizes and shapes of waste materials in the image?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, there are different sizes and shapes of waste materials in the image, including papers, bags, and other items.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer is correct as it confirms the presence of different sizes and shapes of waste materials in the image."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_036900.PNG",
+        "question": "Are all the paper pieces the same shape?",
+        "ground_truth": "no",
+        "predicted": "No, the paper pieces are of different shapes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer includes the specific details mentioned in the ground truth answer and provides the correct understanding that the paper pieces are not the same shape."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_037300.PNG",
+        "question": "What is the approximate shape of the largest waste material in the image?",
+        "ground_truth": "irregular",
+        "predicted": "The largest waste material in the image is a piece of plastic that is roughly rectangular in shape.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 3,
+            "reason": "The predicted answer provides additional specific details that were not asked in the question, making it incorrect."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_037300.PNG",
+        "question": "Are there any waste materials in the image that appear to be in their original shape?",
+        "ground_truth": "no",
+        "predicted": "Yes, there are some waste materials in the image that appear to be in their original shape, such as a plastic bottle and a glass bottle.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 1,
+            "reason": "The predicted answer is incorrect as it contradicts the ground truth. The predicted answer states that there are waste materials in their original shape, while the ground truth clearly states that there are no waste materials."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_038300.PNG",
+        "question": "What is the shape of the waste materials?",
+        "ground_truth": "The shapes vary",
+        "predicted": "The waste materials in the image are in the form of plastic bags, newspapers, and other items that have been discarded.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer provides specific details about the waste materials (e.g. plastic bags, newspapers), while the ground truth only mentions that the shapes vary. The predicted answer is not completely incorrect as it mentions waste materials but fails to capture the variability in shapes as stated in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_038300.PNG",
+        "question": "What is the dominant shape of the waste materials?",
+        "ground_truth": "The shapes vary",
+        "predicted": "The dominant shape of the waste materials in the image is rectangular.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect because it states that the dominant shape is rectangular, while the ground truth mentions that the shapes vary. The predicted answer is not aligned with the variability of shapes mentioned in the ground truth."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_039000.PNG",
+        "question": "Are all the waste materials in the same shape?",
+        "ground_truth": "No, some appear to be in good condition and others look worn",
+        "predicted": "No, the waste materials are in different shapes, including newspapers, food packaging, and other items.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer captures the main idea that waste materials are in different shapes, although it includes specific examples which were not mentioned in the ground truth answer. The overall concept is correct, but lacks some details mentioned in the ground truth."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_039900.PNG",
+        "question": "What is the shape and size of some of the waste materials in the pile?",
+        "ground_truth": "Various sizes and shapes",
+        "predicted": "In the pile of waste materials, there are various shapes and sizes of items, including a mix of paper, plastic, and other materials.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 3,
+            "reason": "The predicted answer captures the essence of the ground truth by mentioning various shapes and sizes of items in the waste materials pile, even though it adds specific examples like paper and plastic which were not mentioned in the ground truth."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_040300.PNG",
+        "question": "What is the approximate shape of the waste materials in the pile?",
+        "ground_truth": "Irregular",
+        "predicted": "The waste materials in the pile are in various shapes, including long, square, and wrapped in plastic. This indicates that the waste materials come from different sources and may have been discarded in different forms.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer provides additional details about the shapes of the waste materials in the pile beyond what was asked in the question. The ground truth only specifies that the approximate shape is irregular, without mentioning specific shapes like long, square, or wrapped in plastic."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_041400.PNG",
+        "question": "Is the waste pile in a specific shape or form?",
+        "ground_truth": "No",
+        "predicted": "The waste pile is in the shape of a heart.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as it states that the waste pile is in the shape of a heart, while the ground truth clearly states that the waste pile is not in a specific shape or form."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_041800.PNG",
+        "question": "What is the approximate shape of the largest object in the waste pile?",
+        "ground_truth": "Irregular",
+        "predicted": "The largest object in the waste pile is a plastic bag.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer is correct as it provides specific details about the largest object in the waste pile, even though the ground truth answer is more general."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_043200.PNG",
+        "question": "Are all the waste materials in the same size and shape?",
+        "ground_truth": "No, they are in different sizes and shapes",
+        "predicted": "No, the waste materials consist of different sizes and shapes, including newspapers, plastic bags, and pieces of cloth.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer captures the main idea that waste materials are in different sizes and shapes, although it includes specific examples like newspapers, plastic bags, and pieces of cloth which were not explicitly mentioned in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_043600.PNG",
+        "question": "Are there any items in their original shapes among the waste materials?",
+        "ground_truth": "Yes",
+        "predicted": "There is no existence of items in their original shapes in the image description.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as it states that there are no items in their original shapes, which contradicts the ground truth answer of \"Yes\". The predicted answer also includes details about the image description which are not relevant to the comparison."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_044600.PNG",
+        "question": "Are the waste materials in the pile of different shapes and sizes?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, the waste materials in the pile are of different shapes and sizes, indicating a variety of items that have been discarded.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer correctly states that the waste materials in the pile are of different shapes and sizes, aligning perfectly with the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_044800.PNG",
+        "question": "What is the shape and size of the waste materials in the image?",
+        "ground_truth": "Various.",
+        "predicted": "The waste materials in the image are in the form of crumpled newspapers and flattened packaging.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is partially correct as it provides details about the shape and size of the waste materials in the image, but it is not as general as the ground truth answer which simply states \"Various.\""
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_047300.PNG",
+        "question": "Are there any objects in the waste pile that are in their original shape?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, there are some objects in the waste pile that are in their original shape. For example, there is a toy car that appears to be in its original form, indicating that it has not been damaged or deformed during the recycling process.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer correctly identifies that there are objects in the waste pile in their original shape, providing an example to support the claim. However, the specific example of the toy car may have added unnecessary details not present in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_047700.PNG",
+        "question": "Are there different shapes and sizes of waste materials in the pile?",
+        "ground_truth": "Yes",
+        "predicted": "Yes, the pile of waste materials consists of different shapes and sizes, including boxes, packaging, and other items.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer includes specific details like boxes, packaging, and other items, which were not explicitly asked in the question. However, it correctly identifies the presence of different shapes and sizes of waste materials in the pile."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_049000.PNG",
+        "question": "Are the waste materials in different shapes and sizes?",
+        "ground_truth": "yes",
+        "predicted": "Yes, the waste materials in the image are of various shapes and sizes, scattered across the floor.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer correctly confirms that waste materials are in different shapes and sizes, although it includes additional details not present in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_001800.PNG",
+        "question": "Is the waste pile in a specific shape or form?",
+        "ground_truth": "No",
+        "predicted": "The waste pile is in the shape of a mountain, indicating that it is a significant amount of waste.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer provides specific details about the shape of the waste pile (mountain), which are not present in the ground truth answer. The ground truth answer simply states that the waste pile is not in a specific shape or form, making the prediction incorrect."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_002300.PNG",
+        "question": "What is the shape and size of the paper in the image?",
+        "ground_truth": "Different shapes and sizes",
+        "predicted": "The paper in the image is of various shapes and sizes, including a square piece of paper and a small rectangle.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 3,
+            "reason": "The predicted answer provides specific details like square and rectangle shapes, while the ground truth does not mention these specific shapes. However, the prediction captures the main idea of the paper having different shapes and sizes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_002800.PNG",
+        "question": "What is the shape of the pile of waste materials in the image?",
+        "ground_truth": "Large",
+        "predicted": "The pile of waste materials in the image is round in shape.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer is less specific than the ground truth answer, but it still conveys the correct shape of the pile of waste materials as round."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_003800.PNG",
+        "question": "Are all the waste materials in the same size and shape?",
+        "ground_truth": "no",
+        "predicted": "No, the waste materials in the image are of different sizes and shapes.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer is correct as it accurately states that the waste materials in the image are of different sizes and shapes, which aligns with the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_004600.PNG",
+        "question": "Are the materials in the image still in their original shape?",
+        "ground_truth": "The condition of the materials is unclear.",
+        "predicted": "No, the materials in the image are crumpled and\u76b1\u8936, indicating that they have been handled roughly or have been through some kind of transformation.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer provides additional details stating that the materials are crumpled, which goes beyond what is mentioned in the ground truth answer. The ground truth answer only states that the condition of the materials is unclear, so the predicted answer is not fully aligned with the information provided in the question."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_007700.PNG",
+        "question": "What is the shape and size of the paper in the image?",
+        "ground_truth": "scattered in different shapes and sizes",
+        "predicted": "The paper in the image is small and square-shaped.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is partially correct as it mentions the size and shape of the paper, but it does not capture the fact that the paper in the image is actually scattered in different shapes and sizes. "
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_007900.PNG",
+        "question": "What is the shape of the waste materials?",
+        "ground_truth": "Crumpled",
+        "predicted": "The waste materials are in the shape of bags and are packed in a container.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer contains additional details about the waste materials being in bags and packed in a container, which are not mentioned in the ground truth answer. The shape of the waste materials is described as crumpled, not as bags or packed in a container."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_008800.PNG",
+        "question": "What is the shape of the paper scattered in the image?",
+        "ground_truth": "different shapes and sizes",
+        "predicted": "The paper scattered in the image is in the shape of newspapers.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is partially incorrect as it mentions the shape of newspapers specifically, while the ground truth is more general in stating different shapes and sizes."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_009000.PNG",
+        "question": "Are all the waste materials in the same shape?",
+        "ground_truth": "no",
+        "predicted": "No, the waste materials are in different shapes, including bags, boxes, and other packaging materials.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer captures the main point that waste materials are in different shapes, which aligns with the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_009600.PNG",
+        "question": "What is the shape of the paper waste material?",
+        "ground_truth": "A triangle",
+        "predicted": "The shape of the paper waste material is a triangle.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer is an exact match of the ground truth without any additional or missing information. It is a perfect match."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_011300.PNG",
+        "question": "Are the waste materials scattered in different sizes and shapes?",
+        "ground_truth": "yes",
+        "predicted": "Yes, the waste materials are scattered in different sizes and shapes on the floor.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer captures the main idea accurately, even though it includes additional details not present in the ground truth answer."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_011500.PNG",
+        "question": "What is the approximate shape of the waste materials in the image?",
+        "ground_truth": "Irregular",
+        "predicted": "The waste materials in the image are crumpled and torn, making it difficult to determine their exact shape. However, they are not in a neat pile or organized in a specific pattern.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 4,
+            "reason": "The predicted answer captures the essence of the waste materials being irregular in shape even though it provides additional details."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_011800.PNG",
+        "question": "What is the shape of the crumpled newspaper?",
+        "ground_truth": "Crumpled",
+        "predicted": "The crumpled newspaper is in the shape of a ball.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 3,
+            "reason": "The predicted answer provides more specific details (ball shape) than required (just crumpled)."
+        }
+    }
+]

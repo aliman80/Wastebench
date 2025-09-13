@@ -1,0 +1,10 @@
+Category: Single Class Classification, No questions available
+Category: Multiclass Categorization, No questions available
+Category: Counting, Accuracy: 54.55%
+Category: Color Diversity, Accuracy: 51.32%
+Category: Geometric Shape Analysis, Accuracy: 41.48%
+Category: Complex and Cluttered Environment, Accuracy: 72.10%
+Category: Condition Evaluation, Accuracy: 78.34%
+Category: Similarity Metric, Accuracy: 100.00%
+Category: Combined Classification and Counting, No questions available
+Category: Other, Accuracy: 69.10%

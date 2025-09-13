@@ -1,0 +1,182 @@
+[
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Can you identify the material that is not visible in the image?",
+        "ground_truth": "The image does not provide information about materials that are not visible.",
+        "predicted": "Find the not(visible) material [[000,000,998,997]]. The material [[282,000,560,452]] is paper. [[000,000,998,997]] So the answer is paper."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Is the cardboard in the image mostly flat?",
+        "ground_truth": "no",
+        "predicted": "Find the cardboard [[054,370,194,752]]. Verify if the cardboard [[054,370,194,752]] is flat. The answer is yes."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000021.PNG",
+        "question": "Are all the materials in the same size?",
+        "ground_truth": "no",
+        "predicted": "According to the image, it can be seen that the size of the materials is not the same. Some materials are larger, while some materials are smaller."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000031.PNG",
+        "question": "Are there any objects in the image that are not waste materials?",
+        "ground_truth": "No",
+        "predicted": "Find the not(waste material) object [[206,378,368,762]]. It exists. The answer is yes."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000041.PNG",
+        "question": "What is the apparent state of the waste materials in the surrounding area?",
+        "ground_truth": "Cluttered",
+        "predicted": "Find the surrounding waste material [[000,000,998,997]]. The waste materials [[000,000,998,997]] are scattered. So the answer is scattered."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000051.PNG",
+        "question": "Are the objects in the image a part of a typical household environment?",
+        "ground_truth": "No",
+        "predicted": "Find the objects [[350,200,932,997;000,000,234,768]]. Verify if the objects [[000,000,234,768]] is a part of the household. The answer is no."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000061.PNG",
+        "question": "Is the waste pile located on the ground?",
+        "ground_truth": "yes",
+        "predicted": "Find the waste pile [[000,000,998,997]]. Verify if the pile [[000,000,998,997]] is on the ground [[000,000,998,997]]. The answer is yes."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000071.PNG",
+        "question": "What is the likely fate of the waste materials in the pile?",
+        "ground_truth": "They should be recycled or disposed of properly",
+        "predicted": "The waste materials in the pile are likely to be disposed of in a landfill or recycling center. The items appear to be mixed, including paper, plastic, and possibly food waste, which would be sorted and processed accordingly in a waste management facility."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000081.PNG",
+        "question": "What is the overall appearance of the waste pile?",
+        "ground_truth": "Messy",
+        "predicted": "The waste pile appears to be a mix of various items, including paper, plastic, and possibly some food items. The items are scattered and not neatly arranged, suggesting a lack of organization or care in disposing of them."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000091.PNG",
+        "question": "Is the waste pile entirely composed of recyclable materials?",
+        "ground_truth": "No",
+        "predicted": "Find the waste pile [[000,000,998,924]]. Verify if the material of the waste pile [[000,000,998,924]] is recyclable. The answer is no."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000101.PNG",
+        "question": "Is there a piece of white paper with a blue design on it in the image?",
+        "ground_truth": "Yes",
+        "predicted": "Find the blue design [[000,224,042,370]]. Check the white paper with it, got the paper [[040,204,220,450]]. It exists. The answer is yes."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000111.PNG",
+        "question": "What is the condition of some of the paper in the pile?",
+        "ground_truth": "Crumbled",
+        "predicted": "Find the pile [[000,000,998,924]]. Check the paper in it, got the paper [[118,214,288,456]]. The paper [[118,214,288,456]] is crumpled. So the answer is crumpled."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000121.PNG",
+        "question": "Is the waste pile in the image a single, cohesive unit?",
+        "ground_truth": "no",
+        "predicted": "Find the waste pile [[000,000,998,954]]. Verify if the waste pile [[000,000,998,954]] is cohesive. The answer is no."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000131.PNG",
+        "question": "Are there any cardboard objects in the pile of waste materials?",
+        "ground_truth": "yes",
+        "predicted": "Find the waste material [[000,000,998,997]]. Check the cardboard object in it, got the object [[108,437,298,666]]. It exists. The answer is yes."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000141.PNG",
+        "question": "What is the condition of the plastic bag in the pile?",
+        "ground_truth": "Unknown",
+        "predicted": "The plastic bag in the pile is torn."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000151.PNG",
+        "question": "Can you identify the type of plastic material that is not marked as 'PET'?",
+        "ground_truth": "soft plastic",
+        "predicted": "Find the not(pet) plastic [[000,000,998,997]]. The plastic material [[000,000,998,997]] is styrofoam. [[000,000,998,997]] So the answer is styrofoam."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000161.PNG",
+        "question": "What is the overall appearance of the waste material pile in the image?",
+        "ground_truth": "Cluttered",
+        "predicted": "The waste material pile in the image appears to be a mix of various items including paper, plastic, and possibly some food packaging. The items are scattered and not neatly arranged, suggesting a possible accumulation of waste over a period of time."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000171.PNG",
+        "question": "What is the primary purpose of the location where the waste pile is located?",
+        "ground_truth": "To manage and recycle waste",
+        "predicted": "The primary purpose of the location where the waste pile is located appears to be a workspace or a desk, given the presence of papers, pens, and other office supplies."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000181.PNG",
+        "question": "Can you identify any potential environmental hazards associated with the waste pile?",
+        "ground_truth": "The waste pile may pose environmental hazards due to its size and mixed composition.",
+        "predicted": "The waste pile contains various items, including plastic bags, food packaging, and possibly hazardous materials. These can pose environmental hazards if not disposed of properly. For instance, plastic bags can clog drains and harm wildlife, while food packaging may contain harmful chemicals. It's important to sort and recycle waste responsibly to minimize these environmental impacts."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000191.PNG",
+        "question": "Is the waste material in the image a small pile?",
+        "ground_truth": "no",
+        "predicted": "Find the waste material [[000,000,998,997]]. Verify if the size of the waste material [[000,000,998,997]] is small. The answer is no."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000201.PNG",
+        "question": "Is the waste pile located in a specific location or environment?",
+        "ground_truth": "Unclear",
+        "predicted": "Find the waste pile [[000,000,998,997]]. Verify if the location of the waste pile [[000,000,998,997]] is outdoors. The answer is no."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000211.PNG",
+        "question": "Is the waste pile situated in a clean environment?",
+        "ground_truth": "No",
+        "predicted": "Find the waste pile [[000,000,998,997]]. Verify if the cleanliness of the waste pile [[000,000,998,997]] is clean. The answer is no."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000221.PNG",
+        "question": "What is the primary material used in the waste pile in the image?",
+        "ground_truth": "Not specified.",
+        "predicted": "The primary material used in the waste pile in the image appears to be paper, along with some plastic and possibly other miscellaneous items."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000231.PNG",
+        "question": "Is the waste material in the image a mixture of different materials?",
+        "ground_truth": "Yes",
+        "predicted": "Find the waste material [[000,000,998,997]]. Verify if the material of the waste material [[000,000,998,997]] is different. The answer is yes."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000241.PNG",
+        "question": "What is the main theme of the scene depicted in the image?",
+        "ground_truth": "Waste accumulation",
+        "predicted": "The main theme of the scene appears to be clutter or mess, as evidenced by the scattered papers, magazines, and other items on a surface."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000251.PNG",
+        "question": "Are there any sharp objects present in the image?",
+        "ground_truth": "no",
+        "predicted": "Find the sharp object [[500,450,634,872]]. It exists. The answer is yes."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000261.PNG",
+        "question": "What is the overall appearance of the waste pile in the image?",
+        "ground_truth": "Messy",
+        "predicted": "The waste pile in the image appears to be a mix of various types of paper, possibly including magazines, catalogs, and other printed materials. There are also some plastic items, such as a bag and possibly a bottle. The items are scattered and not neatly organized, suggesting they may have been discarded or thrown away."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000271.PNG",
+        "question": "Is the waste pile the only object in the room?",
+        "ground_truth": "No",
+        "predicted": "Find the waste pile [[000,000,998,997]]. Verify if the waste pile [[000,000,998,997]] is the only object. The answer is no."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000281.PNG",
+        "question": "What is the primary purpose of the location where the waste materials are located?",
+        "ground_truth": "recycling facility or landfill",
+        "predicted": "The primary purpose of the location where the waste materials are located appears to be a sorting or recycling facility. It is designed to process and manage various types of waste, potentially to recover resources or to prepare the waste for disposal."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000291.PNG",
+        "question": "Are the waste materials in the image primarily made of paper products?",
+        "ground_truth": "yes",
+        "predicted": "Yes, the waste materials in the image are primarily made of paper products. We can see various newspaper and magazine clippings scattered throughout the image."
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_000311.PNG",
+        "question": "Are all the waste materials in the image in a similar state of decomposition?",
+        "ground_truth": "No",
+        "predicted": "Yes, all the waste materials in the image appear to be in a similar state of decomposition, suggesting that they have been discarded for a considerable amount of time.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 2,
+            "reason": "The predicted answer is incorrect as it states that all waste materials in the image are in a similar state of decomposition, which contradicts the ground truth answer that states the opposite."
+        }
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/08_frame_004800.PNG",
+        "question": "Are the waste materials in the image similar in condition?",
+        "ground_truth": "No, they seem to be in various states of disrepair",
+        "predicted": "Yes, the waste materials in the image are similar in condition, as they are all in various states of disarray and scattered across the floor.",
+        "evaluation": {
+            "predicted": "incorrect",
+            "score": 3,
+            "reason": "The predicted answer is partially correct as it acknowledges that the waste materials are in various states, but incorrectly states that they are similar in condition."
+        }
+    }
+]

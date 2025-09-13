@@ -1,0 +1,122 @@
+[
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "What is the primary composition of the waste materials in the image?",
+        "ground_truth": "The primary composition of the waste materials in the image is a mix of different types of waste.",
+        "predicted": "What is the primary composition of the waste materials in the image?\n nobody knows"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Are the waste materials in the image stacked on top of each other?",
+        "ground_truth": "Yes, the waste materials in the image are piled together in a heap.",
+        "predicted": "Are the waste materials in the image stacked on top of each other?\n nobody knows."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Can you identify the types of waste materials present in the image?",
+        "ground_truth": "The image shows rigid plastic, cardboard, metal, and soft plastic waste materials.",
+        "predicted": "Can you identify the types of waste materials present in the image?\n nobody can see the image."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Is the waste material in the image clean or dirty?",
+        "ground_truth": "The condition of the waste materials is unclear.",
+        "predicted": "Is the waste material in the image clean or dirty?"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Are the waste materials in the image arranged in a specific order?",
+        "ground_truth": "No, the waste materials in the image appear to be a mix of different types of waste.",
+        "predicted": "Are the waste materials in the image arranged in a specific order? If so, what is the order?\n nobody can see the image."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Is the waste material in the image located on the ground?",
+        "ground_truth": "Yes, the waste materials in the image are located on the ground.",
+        "predicted": "Is the waste material in the image located on the ground?\n nobody knows"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Can you identify the shape of the waste materials in the image?",
+        "ground_truth": "The shape of the waste materials in the image varies.",
+        "predicted": "Can you identify the shape of the waste materials in the image?\n nobody can see the image."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Are the waste materials in the image the same size?",
+        "ground_truth": "No, the waste materials in the image appear to be of different sizes.",
+        "predicted": "Are the waste materials in the image the same size?\n nobody can see the image."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Is the waste material in the image a single piece or a collection?",
+        "ground_truth": "The waste materials in the image are piled together in a heap.",
+        "predicted": "Is the waste material in the image a single piece or a collection?\n nobody knows"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000001.PNG",
+        "question": "Can you identify the material that is not visible in the image?",
+        "ground_truth": "The image does not provide information about materials that are not visible.",
+        "predicted": "Can you identify the material that is not visible in the image?"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "What materials are depicted in the image?",
+        "ground_truth": "cardboard, metal, and soft plastic",
+        "predicted": "What materials are depicted in the image?\n nobody knows"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Is the cardboard in the image in a good condition?",
+        "ground_truth": "no",
+        "predicted": "Is the cardboard in the image in a good condition?\n nobody can tell from the image, it depends on the condition of the cardboard and the quality of the printing."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "What is the shape of the metal object in the image?",
+        "ground_truth": "a can",
+        "predicted": "What is the shape of the metal object in the image?\n nobody knows"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Is the soft plastic in the image torn?",
+        "ground_truth": "yes",
+        "predicted": "Is the soft plastic in the image torn?"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "What is the overall appearance of the scene in the image?",
+        "ground_truth": "a pile of discarded waste materials",
+        "predicted": "What is the overall appearance of the scene in the image?\n nobody is in the image, it is a still image of a video."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Are all the pieces of cardboard in the image in the same state?",
+        "ground_truth": "no",
+        "predicted": "Are all the pieces of cardboard in the image in the same state?\n nobody is in the image, so it is not possible to determine if the pieces of cardboard are in the same state."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Is the metal object in the image crumpled?",
+        "ground_truth": "yes",
+        "predicted": "Is the metal object in the image crumpled?\n nobody knows."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "What is the texture of the soft plastic in the image?",
+        "ground_truth": "crumpled",
+        "predicted": "What is the texture of the soft plastic in the image?\n nobody can see the texture of the soft plastic in the image."
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Are there any objects in the image that are not waste materials?",
+        "ground_truth": "no",
+        "predicted": "Are there any objects in the image that are not waste materials?\n nobody is there to see it"
+    },
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/05_frame_000011.PNG",
+        "question": "Is the cardboard in the image mostly flat?",
+        "ground_truth": "no",
+        "predicted": "Is the cardboard in the image mostly flat?\n nobody can see the image, so I can't say for sure. But in general, cardboard is not perfectly flat. It is made from paper that has been pressed and folded, so it has some natural curvature and irregularities. Additionally, the image is likely to have been taken at an angle, which could make the cardboard appear more curved or flat depending on the perspective."
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "image_path": "/home/numansaeed/Desktop/Ali_Bhai/Qwen-VL/waste_dataset/splits_final_deblurred/test/data/01_frame_038000.PNG",
+        "question": "Can the exact number of each type of waste be determined from the image?",
+        "ground_truth": "No, it is difficult to determine the exact number of each type of waste.",
+        "predicted": "No, the exact number of each type of waste cannot be determined from the image. The image only shows a pile of assorted garbage, including newspapers, plastic, and other items.",
+        "evaluation": {
+            "predicted": "correct",
+            "score": 5,
+            "reason": "The predicted answer accurately reflects the ground truth answer by stating that the exact number of each type of waste cannot be determined from the image. The additional details provided in the predicted answer do not affect the correctness of the response."
+        }
+    }
+]
