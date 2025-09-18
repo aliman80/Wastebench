@@ -2,7 +2,7 @@
 
 [Muhammad Ali](https://aliman80.github.io), [Salman Khan](https://salman-h-khan.github.io/)
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/submit/6747980/view/) [![Dataset](https://img.shields.io/badge/Dataset-Download-orange?logo=database)](https://huggingface.co/datasets/aliman8/WasteBench-Dataset) 
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2509.00176) [![Dataset](https://img.shields.io/badge/Dataset-Download-orange?logo=database)](https://huggingface.co/datasets/aliman8/WasteBench-Dataset) 
 <!-- 
 [![Website](https://img.shields.io/badge/Website-Visit-green?logo=web)](https://hananshafi.github.io/vane-benchmark/) 
 [![Video](https://img.shields.io/badge/Presentation-Video-red?logo=youtube)](https://youtu.be/fqjQWx6f2SM) 
