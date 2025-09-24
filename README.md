@@ -26,7 +26,7 @@ Official code for our paper "Waste-Bench: A Comprehensive Benchmark for Evaluati
 ![method-diagram](https://github.com/aliman80/wastebench/blob/main/Image_Project.png?raw=true)
 
 > **Abstract:** *Recent advancements in Large Language Models (LLMs) have paved the way for Vision Large Language Models (VLLMs) capable of performing a wide range of visual understanding tasks. While LLMs have demonstrated impressive performance on standard natural images, their capabilities have not been thoroughly explored in cluttered datasets where there is complex environment having deformed shaped objects. In this work, we introduce a novel dataset specifically designed for waste classification in real-world scenarios, characterized by complex environments and deformed shaped objects. Along with this dataset, we present an in-depth evaluation approach to rigorously assess the robustness and accuracy of VLLMs.
-The introduced dataset and comprehensive analysis provide valuable insights into the performance of VLLMs under challenging conditions. Our findings highlight the critical need for further advancements in VLLM's robustness to perform better in complex environments Our project website is live at [link](https://hananshafi.github.io/vane-benchmark/)*
+The introduced dataset and comprehensive analysis provide valuable insights into the performance of VLLMs under challenging conditions. Our findings highlight the critical need for further advancements in VLLM's robustness to perform better in complex environments Our project website is live at [link](https://aliman80.github.io/)*
 >
 
 ## :trophy: Key Contributions:
