@@ -33,7 +33,7 @@ The introduced dataset and comprehensive analysis provide valuable insights into
 
 - We present **Waste-Bench: Benchmark: First large-scale benchmark for waste-centric reasoning, including cluttered and degraded images with VQA-style question–answer annotations.
 - Stress testing: Controlled degradations (noise, enhanced lighting, shading) to measure robustness.
-- Model evaluation: Results across open-source and closed-source VLMs (e.g., GPT-4o, Gemini, LLaVA, InternVL).
+- Model evaluation: Results across open-source and closed-source VLMs (e.g., GPT-4o, Gemini, LLaVA).
 - Open-source resources: Code, data construction pipeline, and evaluation metrics publicly released.
 
 ## :hammer_and_wrench: Setup and Usage
